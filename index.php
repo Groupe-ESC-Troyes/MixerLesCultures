@@ -1,16 +1,18 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="fr"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="fr"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="fr"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en">
+<html lang="fr">
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<title></title>
+	<title>
+		Le Groupe ESC Troyes et le droit à l'expérimentation
+	</title>
 	<meta name="description" content="">
 	<link rel="shortcut icon" href="/favicon.ico?v=0">
 	
@@ -21,11 +23,7 @@
 	<!-- Candy -->
 	<link rel="dns-prefetch" href="//ajax.googleapis.com" />
 	
-	<!-- RSS 
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
-	  -->
-	
-	<!-- Scripts taht need to be loaded first -->
+	<!-- Scripts that need to be loaded first -->
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -42,7 +40,7 @@
 </head>
 <body>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-
+	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.9.1.min.js"><\/script>')</script>
 </body>
