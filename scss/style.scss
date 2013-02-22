@@ -69,11 +69,20 @@ li ol{
 	}
 }
 #menu ul{
+	display: table;
+	margin: auto;
 	list-style: none;
 	text-align: center;
+
+	@include breakpoint(desktop){
+		width: $media-small-desktop;
+	}
+	@include breakpoint(tablet){
+		width: $media-tablet;
+	}
 }
 #menu li{
-	display: inline-block;
+	display: table-cell;
 
 	@include breakpoint(mobile){
 		display: block;
@@ -83,12 +92,8 @@ li ol{
 #menu a{
 	display: block;
 	text-decoration: none;
-	padding: 10px 15px;
+	padding: 10px 0;
 	@include transition();
-
-	@include breakpoint(tablet){
-		padding: 10px 5px;
-	}
 
 	&:hover{
 		background: #f4f4f4;
@@ -110,7 +115,10 @@ section.slide div.slide-inner{
 	margin: auto;
 	
 	@include breakpoint(desktop){
-		width: 960px;
+		width: $media-small-desktop;
+	}
+	@include breakpoint(tablet){
+		width: 100%;
 	}
 	@include breakpoint(mobile){
 		width: 100%;

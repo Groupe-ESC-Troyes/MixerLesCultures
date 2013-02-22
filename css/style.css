@@ -689,69 +689,83 @@ li ol {
 
 /* line 71, ../scss/style.scss */
 #menu ul {
+  display: table;
+  margin: auto;
   list-style: none;
   text-align: center;
 }
+@media only screen and (min-width: 960px) {
+  /* line 71, ../scss/style.scss */
+  #menu ul {
+    width: 960px;
+  }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  /* line 71, ../scss/style.scss */
+  #menu ul {
+    width: 768px;
+  }
+}
 
-/* line 75, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 #menu li {
-  display: inline-block;
+  display: table-cell;
 }
 @media (max-width: 767px) {
-  /* line 75, ../scss/style.scss */
+  /* line 84, ../scss/style.scss */
   #menu li {
     display: block;
     border-top: 1px solid #bbbbbb;
   }
 }
 
-/* line 83, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 #menu a {
   display: block;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 10px 0;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-@media (min-width: 768px) and (max-width: 959px) {
-  /* line 83, ../scss/style.scss */
-  #menu a {
-    padding: 10px 5px;
-  }
-}
-/* line 93, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 #menu a:hover {
   background: #f4f4f4;
   color: #252525;
 }
 
-/* line 100, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 section.slide {
   width: 100%;
   background: #cc0000;
 }
 @media only screen and (min-width: 960px) {
-  /* line 100, ../scss/style.scss */
+  /* line 105, ../scss/style.scss */
   section.slide {
     min-height: 700px;
   }
 }
 
-/* line 108, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 section.slide div.slide-inner {
   background: #00aa00;
   margin: auto;
 }
 @media only screen and (min-width: 960px) {
-  /* line 108, ../scss/style.scss */
+  /* line 113, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 960px;
   }
 }
+@media (min-width: 768px) and (max-width: 959px) {
+  /* line 113, ../scss/style.scss */
+  section.slide div.slide-inner {
+    width: 100%;
+  }
+}
 @media (max-width: 767px) {
-  /* line 108, ../scss/style.scss */
+  /* line 113, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 100%;
   }
