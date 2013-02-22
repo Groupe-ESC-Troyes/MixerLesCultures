@@ -96,6 +96,10 @@
 			<strong>
 				Lancement le 20 mars 2013
 			</strong>
+			
+			<a href="" class="download">
+				Télécharger le livre blanc au format PDF
+			</a>
 		</div>
 	</section>
 	<section id="pourquoi" class="slide">

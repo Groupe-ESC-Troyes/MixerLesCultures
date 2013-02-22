@@ -112,6 +112,40 @@ li ol{
 	}
 }
 
+//ruban
+@mixin ribbon($background: #333333, $fold-height: 15px, $fold-width: 50px){
+	position: relative;
+	background: $background;
+
+	&:before,
+	&:after{
+		content: "";
+		position: absolute;
+		display: block;
+		border: 0 solid darken($background, 10);
+		border-top-width: 0;
+		border-bottom-width: $fold-height;
+	}
+	&:before{
+		left: 0;
+		bottom: -$fold-height;
+		border-left-color: transparent;
+		border-top-color: transparent;
+		border-bottom-color: transparent;
+		border-left-width: 0;
+		border-right-width: $fold-width;
+	}
+	&:after{
+		right: 0;
+		bottom: -$fold-height;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		border-bottom-color: transparent;
+		border-right-width: 0;
+		border-left-width: $fold-width;
+	}
+}
+
 //slides
 section.slide{
 	width: 100%;
@@ -180,6 +214,23 @@ section.slide div.slide-inner{
 		
 		@include breakpoint(mobile){
 			@include font-size(18);
+		}
+	}
+	
+	a.download{
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		@include font-size(18);
+		width: 60%;
+		margin: 40px auto;
+		color: white;
+		padding: 15px 0;
+		@include ribbon($couleur-texte-corporate);
+		@include transition();
+		
+		&:hover{
+			background: lighten($couleur-texte-corporate, 4);
 		}
 	}
 }
