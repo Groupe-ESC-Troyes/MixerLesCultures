@@ -656,9 +656,13 @@ li ol {
 #menu-container {
   background: #252525;
   color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-/* line 50, ../scss/style.scss */
+/* line 54, ../scss/style.scss */
 #menu-container a.menu-toggle {
   display: none;
   color: #fff;
@@ -666,28 +670,28 @@ li ol {
   text-decoration: none;
 }
 @media (max-width: 767px) {
-  /* line 50, ../scss/style.scss */
+  /* line 54, ../scss/style.scss */
   #menu-container a.menu-toggle {
     display: block;
   }
 }
 
-/* line 60, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 #menu {
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  /* line 60, ../scss/style.scss */
+  /* line 64, ../scss/style.scss */
   #menu {
     max-height: 0em;
   }
-  /* line 66, ../scss/style.scss */
+  /* line 70, ../scss/style.scss */
   #menu.active {
     max-height: 20em;
   }
 }
 
-/* line 71, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 #menu ul {
   display: table;
   margin: auto;
@@ -695,31 +699,37 @@ li ol {
   text-align: center;
 }
 @media only screen and (min-width: 960px) {
-  /* line 71, ../scss/style.scss */
+  /* line 75, ../scss/style.scss */
   #menu ul {
     width: 960px;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 71, ../scss/style.scss */
+  /* line 75, ../scss/style.scss */
   #menu ul {
     width: 768px;
   }
 }
+@media (max-width: 767px) {
+  /* line 75, ../scss/style.scss */
+  #menu ul {
+    display: block;
+  }
+}
 
-/* line 84, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 #menu li {
   display: table-cell;
 }
 @media (max-width: 767px) {
-  /* line 84, ../scss/style.scss */
+  /* line 91, ../scss/style.scss */
   #menu li {
     display: block;
     border-top: 1px solid #bbbbbb;
   }
 }
 
-/* line 92, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 #menu a {
   display: block;
   text-decoration: none;
@@ -729,44 +739,66 @@ li ol {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-/* line 98, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 #menu a:hover {
   background: #f4f4f4;
   color: #252525;
 }
 
-/* line 105, ../scss/style.scss */
+/* line 112, ../scss/style.scss */
 section.slide {
   width: 100%;
-  background: #cc0000;
+  padding-top: 42px;
+  padding-bottom: 20px;
 }
-@media only screen and (min-width: 960px) {
-  /* line 105, ../scss/style.scss */
+@media only screen and (min-height: 700px) {
+  /* line 112, ../scss/style.scss */
   section.slide {
     min-height: 700px;
   }
 }
+@media only screen and (min-height: 500px) and (max-height: 699px) {
+  /* line 112, ../scss/style.scss */
+  section.slide {
+    min-height: 500px;
+  }
+}
+@media only screen and (max-height: 499px) {
+  /* line 112, ../scss/style.scss */
+  section.slide {
+    min-height: 300px;
+  }
+}
 
-/* line 113, ../scss/style.scss */
+/* line 127, ../scss/style.scss */
 section.slide div.slide-inner {
-  background: #00aa00;
   margin: auto;
 }
 @media only screen and (min-width: 960px) {
-  /* line 113, ../scss/style.scss */
+  /* line 127, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 960px;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 113, ../scss/style.scss */
+  /* line 127, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  /* line 113, ../scss/style.scss */
+  /* line 127, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 100%;
   }
+}
+
+/* line 142, ../scss/style.scss */
+#home {
+  background: #cc0000;
+}
+
+/* line 145, ../scss/style.scss */
+#pourquoi {
+  background: #252525;
 }

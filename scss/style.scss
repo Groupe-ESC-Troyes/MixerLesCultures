@@ -46,6 +46,10 @@ li ol{
 #menu-container{
 	background: #252525;
 	color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 #menu-container a.menu-toggle{
 	display: none;
@@ -80,6 +84,9 @@ li ol{
 	@include breakpoint(tablet){
 		width: $media-tablet;
 	}
+	@include breakpoint(mobile){
+		display: block;
+	}
 }
 #menu li{
 	display: table-cell;
@@ -104,14 +111,20 @@ li ol{
 //slides
 section.slide{
 	width: 100%;
-	background: #cc0000;
+	padding-top: 42px;
+	padding-bottom: 20px;
 	
-	@include breakpoint(desktop){
+	@media 	only screen and (min-height: 700px){
 		min-height: 700px;
+	}
+	@media 	only screen and (min-height: 500px) and (max-height: 699px){
+		min-height: 500px;
+	}
+	@media 	only screen and (max-height: 499px){
+		min-height: 300px;
 	}
 }
 section.slide div.slide-inner{
-	background: #00aa00;
 	margin: auto;
 	
 	@include breakpoint(desktop){
@@ -123,4 +136,12 @@ section.slide div.slide-inner{
 	@include breakpoint(mobile){
 		width: 100%;
 	}
+}
+
+//slides individuelles
+#home{
+	background: #cc0000;
+}
+#pourquoi{
+	background: #252525;
 }
