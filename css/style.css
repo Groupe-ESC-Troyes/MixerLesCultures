@@ -936,3 +936,8 @@ section.slide div.slide-inner {
     right: -20px;
   }
 }
+
+/* line 245, ../scss/style.scss */
+#prop1 {
+  background-image: url("../img/entrepreneuretudiant.jpg");
+}
