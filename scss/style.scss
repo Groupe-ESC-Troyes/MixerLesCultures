@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 1;
 	font-weight: 700;
 	text-transform: uppercase;
+	margin-top: 0;
 }
 strong,th {
 	font-wieght: 700;
@@ -41,3 +42,77 @@ li ol{
 	margin-left: 20px;
 }
 
+//menu
+#menu-container{
+	background: #252525;
+	color: #fff;
+}
+#menu-container a.menu-toggle{
+	display: none;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+
+	@include breakpoint(mobile){
+		display: block;
+	}
+}
+#menu{
+	overflow: hidden;
+
+	@include breakpoint(mobile){
+		max-height: 0em;
+	
+		&.active{
+			max-height: 20em;
+		}
+	}
+}
+#menu ul{
+	list-style: none;
+	text-align: center;
+}
+#menu li{
+	display: inline-block;
+
+	@include breakpoint(mobile){
+		display: block;
+		border-top: 1px solid #bbbbbb;
+	}
+}
+#menu a{
+	display: block;
+	text-decoration: none;
+	padding: 10px 15px;
+	@include transition();
+
+	@include breakpoint(tablet){
+		padding: 10px 5px;
+	}
+
+	&:hover{
+		background: #f4f4f4;
+		color: #252525;
+	}
+}
+
+//slides
+section.slide{
+	width: 100%;
+	background: #cc0000;
+	
+	@include breakpoint(desktop){
+		min-height: 700px;
+	}
+}
+section.slide div.slide-inner{
+	background: #00aa00;
+	margin: auto;
+	
+	@include breakpoint(desktop){
+		width: 960px;
+	}
+	@include breakpoint(mobile){
+		width: 100%;
+	}
+}

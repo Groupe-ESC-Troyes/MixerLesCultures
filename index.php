@@ -42,7 +42,7 @@
 <body>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 	
-	<div id="menu-container">
+	<div id="menu-container" class="clearfix">
 		<a href="#menu" class="menu-toggle">
 			Menu
 		</a>
@@ -50,13 +50,33 @@
 		<nav id="menu" role="navigation">
 			<ul>
 				<li>
-					<a href="#">
+					<a href="#home">
 						Accueil
 					</a>
 				</li>
 				<li>
+					<a href="#pourquoi">
+						Pourquoi ce livre ?
+					</a>
+				</li>
+				<li>
 					<a href="#">
-						Pourquoi
+						Entrepreneuriat
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Transversalité
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Ouverture Sociale
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Poursuivre le débat
 					</a>
 				</li>
 			</ul>
@@ -65,7 +85,7 @@
 	</div>
 	
 	<section id="home" class="slide">
-		<div class="slider-inner">
+		<div class="slide-inner">
 			<h1>
 				A title
 			</h1>
@@ -74,8 +94,19 @@
 			</p>
 		</div>
 	</section>
+	<section id="pourquoi" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Pourquoi ce livre
+			</h1>
+			<p>
+				Oui, pourquoi?
+			</p>
+		</div>
+	</section>
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="js/general.js"></script>
 </body>
 </html>

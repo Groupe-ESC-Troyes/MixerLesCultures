@@ -382,7 +382,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 15, ../scss/_base.scss */
+/* line 44, ../scss/_base.scss */
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -390,7 +390,7 @@ table {
   clear: both;
 }
 
-/* line 22, ../scss/_base.scss */
+/* line 51, ../scss/_base.scss */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -398,99 +398,76 @@ table {
 }
 
 /* Always force a scrollbar in non-IE */
-/* line 28, ../scss/_base.scss */
+/* line 57, ../scss/_base.scss */
 html {
   overflow-y: scroll;
 }
 
-/* line 33, ../scss/_base.scss */
+/* line 62, ../scss/_base.scss */
 img {
   max-width: 100%;
 }
 
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
-/* line 38, ../scss/_base.scss */
+/* line 67, ../scss/_base.scss */
 a:hover, a:active {
   outline: none;
 }
 
-/* line 41, ../scss/_base.scss */
+/* line 70, ../scss/_base.scss */
 ul, ol {
   list-style-position: inside;
   padding: 0;
   margin: 0;
 }
 
-/* line 46, ../scss/_base.scss */
+/* line 75, ../scss/_base.scss */
 ol {
   list-style-type: decimal;
 }
 
 /* Set sub, sup without affecting line-height: gist.github.com/413930 */
-/* line 50, ../scss/_base.scss */
+/* line 79, ../scss/_base.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
 }
 
-/* line 55, ../scss/_base.scss */
+/* line 84, ../scss/_base.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 58, ../scss/_base.scss */
+/* line 87, ../scss/_base.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 62, ../scss/_base.scss */
+/* line 91, ../scss/_base.scss */
 textarea {
   overflow: auto;
 }
 
 /* Hand cursor on clickable input elements */
-/* line 66, ../scss/_base.scss */
+/* line 95, ../scss/_base.scss */
 label, input[type="button"], input[type="submit"], input[type="image"], button {
   cursor: pointer;
 }
 
-/* line 69, ../scss/_base.scss */
+/* line 98, ../scss/_base.scss */
 input[type="radio"] {
   vertical-align: text-bottom;
 }
 
-/* line 72, ../scss/_base.scss */
+/* line 101, ../scss/_base.scss */
 input[type="checkbox"] {
   vertical-align: middle;
 }
 
-/* These selection declarations have to be separate
-   No text-shadow: twitter.com/miketaylr/status/12228805301
-   Also: hot pink! */
-/* line 78, ../scss/_base.scss */
-::-moz-selection {
-  background: #333333;
-  color: #fff;
-  text-shadow: none;
-}
-
-/* line 83, ../scss/_base.scss */
-::selection {
-  background: #333333;
-  color: #fff;
-  text-shadow: none;
-}
-
-/* j.mp/webkit-tap-highlight-color */
-/* line 89, ../scss/_base.scss */
-a:link {
-  -webkit-tap-highlight-color: #333333;
-}
-
 /* Make buttons play nice in IE:
    www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
-/* line 94, ../scss/_base.scss */
+/* line 106, ../scss/_base.scss */
 button {
   width: auto;
   overflow: visible;
@@ -498,14 +475,14 @@ button {
 
 /* Bicubic resizing for non-native sized IMG:
    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
-/* line 100, ../scss/_base.scss */
+/* line 112, ../scss/_base.scss */
 .ie7 img {
   -ms-interpolation-mode: bicubic;
 }
 
 /* Hide for both screenreaders and browsers:
    css-discuss.incutio.com/wiki/Screenreader_Visibility */
-/* line 105, ../scss/_base.scss */
+/* line 117, ../scss/_base.scss */
 .hidden {
   display: none;
   visibility: hidden;
@@ -513,7 +490,7 @@ button {
 
 /* Hide only visually, but have it available for screenreaders: by Jon Neal.
   www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
-/* line 111, ../scss/_base.scss */
+/* line 123, ../scss/_base.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -526,7 +503,7 @@ button {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
-/* line 122, ../scss/_base.scss */
+/* line 134, ../scss/_base.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -537,12 +514,12 @@ button {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 131, ../scss/_base.scss */
+/* line 143, ../scss/_base.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 135, ../scss/_base.scss */
+/* line 147, ../scss/_base.scss */
 small {
   display: block;
   margin: 20px 0 5px;
@@ -551,7 +528,7 @@ small {
 }
 
 @media print {
-  /* line 142, ../scss/_base.scss */
+  /* line 154, ../scss/_base.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -561,41 +538,41 @@ small {
   }
 
   /* Black prints faster: sanbeiji.com/archives/953 */
-  /* line 149, ../scss/_base.scss */
+  /* line 161, ../scss/_base.scss */
   a, a:visited {
     color: #444 !important;
     text-decoration: underline;
   }
 
-  /* line 153, ../scss/_base.scss */
+  /* line 165, ../scss/_base.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 156, ../scss/_base.scss */
+  /* line 168, ../scss/_base.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 159, ../scss/_base.scss */
+  /* line 171, ../scss/_base.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 162, ../scss/_base.scss */
+  /* line 174, ../scss/_base.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 166, ../scss/_base.scss */
+  /* line 178, ../scss/_base.scss */
   thead {
     display: table-header-group;
   }
 
   /* css-discuss.incutio.com/wiki/Printing_Tables */
-  /* line 169, ../scss/_base.scss */
+  /* line 181, ../scss/_base.scss */
   tr, img {
     page-break-inside: avoid;
   }
@@ -604,13 +581,13 @@ small {
     margin: 0.5cm;
 }
 
-  /* line 175, ../scss/_base.scss */
+  /* line 187, ../scss/_base.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 179, ../scss/_base.scss */
+  /* line 191, ../scss/_base.scss */
   h2, h3 {
     page-break-after: avoid;
   }
@@ -640,19 +617,20 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
-/* line 23, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 strong, th {
   font-wieght: 700;
 }
 
-/* line 26, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 a, a:active, a:visited {
   color: inherit;
 }
 
-/* line 29, ../scss/style.scss */
+/* line 30, ../scss/style.scss */
 p {
   margin-top: 0;
   margin-bottom: 6px;
@@ -661,15 +639,120 @@ p {
   font-weight: 300;
 }
 
-/* line 36, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 ul,
 ol {
   font-size: 16px;
   font-size: 1.6rem;
 }
 
-/* line 40, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 li ul,
 li ol {
   margin-left: 20px;
+}
+
+/* line 46, ../scss/style.scss */
+#menu-container {
+  background: #252525;
+  color: #fff;
+}
+
+/* line 50, ../scss/style.scss */
+#menu-container a.menu-toggle {
+  display: none;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  /* line 50, ../scss/style.scss */
+  #menu-container a.menu-toggle {
+    display: block;
+  }
+}
+
+/* line 60, ../scss/style.scss */
+#menu {
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  /* line 60, ../scss/style.scss */
+  #menu {
+    max-height: 0em;
+  }
+  /* line 66, ../scss/style.scss */
+  #menu.active {
+    max-height: 20em;
+  }
+}
+
+/* line 71, ../scss/style.scss */
+#menu ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* line 75, ../scss/style.scss */
+#menu li {
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  /* line 75, ../scss/style.scss */
+  #menu li {
+    display: block;
+    border-top: 1px solid #bbbbbb;
+  }
+}
+
+/* line 83, ../scss/style.scss */
+#menu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  /* line 83, ../scss/style.scss */
+  #menu a {
+    padding: 10px 5px;
+  }
+}
+/* line 93, ../scss/style.scss */
+#menu a:hover {
+  background: #f4f4f4;
+  color: #252525;
+}
+
+/* line 100, ../scss/style.scss */
+section.slide {
+  width: 100%;
+  background: #cc0000;
+}
+@media only screen and (min-width: 960px) {
+  /* line 100, ../scss/style.scss */
+  section.slide {
+    min-height: 700px;
+  }
+}
+
+/* line 108, ../scss/style.scss */
+section.slide div.slide-inner {
+  background: #00aa00;
+  margin: auto;
+}
+@media only screen and (min-width: 960px) {
+  /* line 108, ../scss/style.scss */
+  section.slide div.slide-inner {
+    width: 960px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 108, ../scss/style.scss */
+  section.slide div.slide-inner {
+    width: 100%;
+  }
 }
