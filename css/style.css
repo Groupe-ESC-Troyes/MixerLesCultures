@@ -668,40 +668,41 @@ li ol {
 #menu-container {
   background: #252525;
   position: fixed;
+  z-index: 500;
   top: 0;
   left: 0;
   right: 0;
 }
 
-/* line 59, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 #menu-container a.menu-toggle {
   display: none;
   padding: 10px;
   text-decoration: none;
 }
 @media (max-width: 767px) {
-  /* line 59, ../scss/style.scss */
+  /* line 60, ../scss/style.scss */
   #menu-container a.menu-toggle {
     display: block;
   }
 }
 
-/* line 68, ../scss/style.scss */
+/* line 69, ../scss/style.scss */
 #menu {
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  /* line 68, ../scss/style.scss */
+  /* line 69, ../scss/style.scss */
   #menu {
     max-height: 0em;
   }
-  /* line 74, ../scss/style.scss */
+  /* line 75, ../scss/style.scss */
   #menu.active {
     max-height: 20em;
   }
 }
 
-/* line 79, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 #menu ul {
   display: table;
   margin: auto;
@@ -709,37 +710,37 @@ li ol {
   text-align: center;
 }
 @media only screen and (min-width: 960px) {
-  /* line 79, ../scss/style.scss */
+  /* line 80, ../scss/style.scss */
   #menu ul {
     width: 960px;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 79, ../scss/style.scss */
+  /* line 80, ../scss/style.scss */
   #menu ul {
     width: 768px;
   }
 }
 @media (max-width: 767px) {
-  /* line 79, ../scss/style.scss */
+  /* line 80, ../scss/style.scss */
   #menu ul {
     display: block;
   }
 }
 
-/* line 95, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 #menu li {
   display: table-cell;
 }
 @media (max-width: 767px) {
-  /* line 95, ../scss/style.scss */
+  /* line 96, ../scss/style.scss */
   #menu li {
     display: block;
     border-top: 1px solid #bbbbbb;
   }
 }
 
-/* line 103, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 #menu a {
   display: block;
   text-decoration: none;
@@ -749,13 +750,13 @@ li ol {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-/* line 109, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 #menu a:hover {
   background: #f4f4f4;
   color: #252525;
 }
 
-/* line 150, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 section.slide {
   width: 100%;
   padding-top: 42px;
@@ -769,37 +770,37 @@ section.slide {
   background-repeat: no-repeat;
 }
 @media only screen and (min-height: 700px) {
-  /* line 150, ../scss/style.scss */
+  /* line 151, ../scss/style.scss */
   section.slide {
     min-height: 700px;
   }
 }
 @media only screen and (min-height: 500px) and (max-height: 699px) {
-  /* line 150, ../scss/style.scss */
+  /* line 151, ../scss/style.scss */
   section.slide {
     min-height: 500px;
   }
 }
 @media only screen and (max-height: 499px) {
-  /* line 150, ../scss/style.scss */
+  /* line 151, ../scss/style.scss */
   section.slide {
     min-height: 300px;
   }
 }
 
-/* line 169, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 section.slide div.slide-inner {
   margin: auto;
   padding-top: 40px;
 }
 @media only screen and (min-width: 960px) {
-  /* line 169, ../scss/style.scss */
+  /* line 170, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 960px;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 169, ../scss/style.scss */
+  /* line 170, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 100%;
     padding-left: 10px;
@@ -807,7 +808,7 @@ section.slide div.slide-inner {
   }
 }
 @media (max-width: 767px) {
-  /* line 169, ../scss/style.scss */
+  /* line 170, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 100%;
     padding-left: 10px;
@@ -815,36 +816,36 @@ section.slide div.slide-inner {
   }
 }
 
-/* line 189, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 #home {
   background-image: url("../img/home.jpg");
   color: #3f5049;
 }
-/* line 193, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 #home h1 {
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
-  /* line 193, ../scss/style.scss */
+  /* line 194, ../scss/style.scss */
   #home h1 {
     font-size: 25px;
     font-size: 2.5rem;
   }
 }
-/* line 200, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
 #home h2 {
   font-weight: 400;
   margin-bottom: 50px;
 }
 @media (max-width: 767px) {
-  /* line 200, ../scss/style.scss */
+  /* line 201, ../scss/style.scss */
   #home h2 {
     font-size: 20px;
     font-size: 2rem;
     margin-bottom: 30px;
   }
 }
-/* line 209, ../scss/style.scss */
+/* line 210, ../scss/style.scss */
 #home strong {
   display: block;
   margin: auto;
@@ -853,13 +854,13 @@ section.slide div.slide-inner {
   font-size: 2.2rem;
 }
 @media (max-width: 767px) {
-  /* line 209, ../scss/style.scss */
+  /* line 210, ../scss/style.scss */
   #home strong {
     font-size: 18px;
     font-size: 1.8rem;
   }
 }
-/* line 220, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 #home a.download {
   display: block;
   text-align: center;
@@ -877,7 +878,7 @@ section.slide div.slide-inner {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-/* line 121, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 #home a.download:before, #home a.download:after {
   content: "";
   position: absolute;
@@ -886,7 +887,7 @@ section.slide div.slide-inner {
   border-top-width: 0;
   border-bottom-width: 15px;
 }
-/* line 129, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 #home a.download:before {
   left: 0;
   bottom: -15px;
@@ -896,7 +897,7 @@ section.slide div.slide-inner {
   border-left-width: 0;
   border-right-width: 50px;
 }
-/* line 138, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
 #home a.download:after {
   right: 0;
   bottom: -15px;
@@ -906,49 +907,50 @@ section.slide div.slide-inner {
   border-right-width: 0;
   border-left-width: 50px;
 }
-/* line 232, ../scss/style.scss */
+/* line 233, ../scss/style.scss */
 #home a.download:hover {
   background: #485b53;
 }
 
-/* line 237, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 #pourquoi {
   background: #252525;
 }
-/* line 240, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 #pourquoi h1 {
   margin-bottom: 40px;
 }
-/* line 243, ../scss/style.scss */
+/* line 244, ../scss/style.scss */
 #pourquoi h1 span {
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  /* line 243, ../scss/style.scss */
+  /* line 244, ../scss/style.scss */
   #pourquoi h1 span {
     display: block;
   }
 }
-/* line 250, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 #pourquoi strong {
   margin-bottom: 15px;
   display: block;
 }
 
-/* line 255, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 #entrepreneur {
   background: #cb3521;
   position: relative;
   overflow: hidden;
 }
-/* line 260, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 #entrepreneur h1 {
   font-size: 60px;
   font-size: 6rem;
   text-align: center;
+  margin-bottom: 30px;
 }
 @media (max-width: 767px) {
-  /* line 260, ../scss/style.scss */
+  /* line 261, ../scss/style.scss */
   #entrepreneur h1 {
     font-size: 40px;
     font-size: 4rem;
@@ -956,12 +958,117 @@ section.slide div.slide-inner {
   }
 }
 @media (max-width: 767px) {
-  /* line 271, ../scss/style.scss */
+  /* line 273, ../scss/style.scss */
   #entrepreneur h1 span {
     display: block;
   }
 }
-/* line 276, ../scss/style.scss */
+/* line 278, ../scss/style.scss */
+#entrepreneur blockquote {
+  position: relative;
+  background: #f4f4f4;
+  font-size: 22px;
+  font-size: 2.2rem;
+  width: 75%;
+  margin: auto;
+  font-weight: 700;
+  color: #252525;
+  text-align: center;
+}
+/* line 122, ../scss/style.scss */
+#entrepreneur blockquote:before, #entrepreneur blockquote:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0 solid #dbdbdb;
+  border-top-width: 0;
+  border-bottom-width: 15px;
+}
+/* line 130, ../scss/style.scss */
+#entrepreneur blockquote:before {
+  left: 0;
+  bottom: -15px;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-width: 0;
+  border-right-width: 50px;
+}
+/* line 139, ../scss/style.scss */
+#entrepreneur blockquote:after {
+  right: 0;
+  bottom: -15px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-width: 0;
+  border-left-width: 50px;
+}
+/* line 287, ../scss/style.scss */
+#entrepreneur cite {
+  display: block;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 2rem;
+  text-align: right;
+  padding-right: 50px;
+}
+/* line 296, ../scss/style.scss */
+#entrepreneur ul.prop-links {
+  margin: 50px auto 0;
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+}
+/* line 302, ../scss/style.scss */
+#entrepreneur ul.prop-links li {
+  display: inline-block;
+  width: 35%;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  background: #8e2011;
+}
+/* line 310, ../scss/style.scss */
+#entrepreneur ul.prop-links li:hover {
+  background: #9c2313;
+}
+/* line 314, ../scss/style.scss */
+#entrepreneur ul.prop-links div.wrap {
+  display: table;
+  position: relative;
+}
+/* line 318, ../scss/style.scss */
+#entrepreneur ul.prop-links div.wrap:after {
+  content: attr(data-num);
+  position: absolute;
+  right: -7px;
+  bottom: -30px;
+  font-size: 110px;
+  font-size: 11rem;
+  color: #cb3521;
+  font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
+  font-weight: 700;
+  z-index: 1;
+}
+/* line 330, ../scss/style.scss */
+#entrepreneur ul.prop-links a {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 10px;
+  height: 150px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
+  font-size: 22px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  z-index: 10;
+}
+/* line 346, ../scss/style.scss */
 #entrepreneur:after {
   content: "1";
   position: absolute;
@@ -970,7 +1077,7 @@ section.slide div.slide-inner {
   color: #e0867a;
 }
 @media only screen and (min-width: 960px) {
-  /* line 276, ../scss/style.scss */
+  /* line 346, ../scss/style.scss */
   #entrepreneur:after {
     font-size: 600px;
     font-size: 60rem;
@@ -979,7 +1086,7 @@ section.slide div.slide-inner {
   }
 }
 @media (max-width: 767px) {
-  /* line 276, ../scss/style.scss */
+  /* line 346, ../scss/style.scss */
   #entrepreneur:after {
     font-size: 450px;
     font-size: 45rem;
@@ -988,12 +1095,12 @@ section.slide div.slide-inner {
   }
 }
 
-/* line 296, ../scss/style.scss */
+/* line 366, ../scss/style.scss */
 #prop1-image {
   background-image: url("../img/entrepreneuretudiant.jpg");
 }
 
-/* line 299, ../scss/style.scss */
+/* line 369, ../scss/style.scss */
 #prop1 {
   background: #cb3521;
 }

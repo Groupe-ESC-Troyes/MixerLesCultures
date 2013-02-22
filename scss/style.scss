@@ -52,6 +52,7 @@ li ol{
 #menu-container{
 	background: $couleur-fond-contraste;
 	position: fixed;
+	z-index: 500;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -260,6 +261,7 @@ section.slide div.slide-inner{
 	h1{
 		@include font-size(60);
 		text-align: center;
+		margin-bottom: 30px;
 		
 		@include breakpoint(mobile){
 			@include font-size(40);
@@ -272,6 +274,74 @@ section.slide div.slide-inner{
 			display: block;
 		}
 	}
+	
+	blockquote{
+		@include ribbon(#f4f4f4);
+		@include font-size(22);
+		width: 75%;
+		margin: auto;
+		font-weight: 700;
+		color: $couleur-fond-contraste;
+		text-align: center;
+	}
+	cite{
+		display: block;
+		font-weight: 300;
+		font-style: normal;
+		@include font-size(20);
+		text-align: right;
+		padding-right: 50px;
+	}
+	
+	ul.prop-links{
+		margin: 50px auto 0;
+		list-style: none;
+		text-align: center;
+		font-size: 0;
+	}
+	ul.prop-links li{
+		display: inline-block;
+		width: 35%;
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-bottom: 30px;
+		background: #8e2011;
+		
+		&:hover{
+			background: lighten(#8e2011, 3);
+		}
+	}
+	ul.prop-links div.wrap{
+		display: table;
+		position: relative;
+		
+		&:after{
+			content: attr(data-num);
+			position: absolute;
+			right: -7px;
+			bottom: -30px;
+			@include font-size(110);
+			color: $couleur-fond-entrepreneur;
+			font-family: $heading-font-family;
+			font-weight: 700;
+			z-index: 1;
+		}
+	}
+	ul.prop-links a{
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 0 10px;
+		height: 150px;
+		text-align: left;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: $heading-font-family;
+		@include font-size(22);
+		font-weight: 700;
+		z-index: 10;
+	}
+	
 	
 	&:after{
 		content: "1";

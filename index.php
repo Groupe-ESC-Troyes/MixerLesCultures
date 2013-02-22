@@ -60,22 +60,22 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#entrepreneur">
 						Entrepreneuriat
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#transversalite">
 						Transversalité
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#ouverture">
 						Ouverture Sociale
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#debat">
 						Poursuivre le débat
 					</a>
 				</li>
@@ -125,6 +125,44 @@
 			<h1>
 				<span>Entre</span>preneuriat
 			</h1>
+			
+			<blockquote cite="Jacques Barraux">
+				"Entreprendre, c'est toujours un peu casser l'ordre établi."
+				<cite>
+					Jacques Barraux
+				</cite>
+			</blockquote>
+			
+			<ul class="prop-links clearfix">
+				<li>
+					<div class="wrap" data-num="#3">
+						<a href="#">
+							Développer une filière entrepreneur-études
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap" data-num="#4">
+						<a href="#">
+							Créer un statut entrepreneur-étudiant
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap" data-num="#9">
+						<a href="#">
+							Créer un label "Pépinière de jeunes chercheurs"
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap" data-num="#11">
+						<a href="#">
+							Faciliter les contrats mixtes laboratoire-entreprise
+						</a>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</section>
 	<section id="prop1-image" class="slide">
