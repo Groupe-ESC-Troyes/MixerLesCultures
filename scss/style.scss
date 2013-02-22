@@ -21,6 +21,12 @@ h1,h2,h3,h4,h5,h6{
 	text-transform: uppercase;
 	margin-top: 0;
 }
+h1{
+	@include font-size(32);
+}
+h2{
+	@include font-size(25);
+}
 strong,th {
 	font-wieght: 700;
 }
@@ -44,8 +50,7 @@ li ol{
 
 //menu
 #menu-container{
-	background: #252525;
-	color: #fff;
+	background: $couleur-fond-contraste;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -53,7 +58,6 @@ li ol{
 }
 #menu-container a.menu-toggle{
 	display: none;
-	color: #fff;
 	padding: 10px;
 	text-decoration: none;
 
@@ -113,6 +117,9 @@ section.slide{
 	width: 100%;
 	padding-top: 42px;
 	padding-bottom: 20px;
+	@include background-size(cover);
+	background-position: center;
+	background-repeat: no-repeat;
 	
 	@media 	only screen and (min-height: 700px){
 		min-height: 700px;
@@ -126,22 +133,51 @@ section.slide{
 }
 section.slide div.slide-inner{
 	margin: auto;
+	padding-top: 40px;
 	
 	@include breakpoint(desktop){
 		width: $media-small-desktop;
 	}
 	@include breakpoint(tablet){
 		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	@include breakpoint(mobile){
 		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
 
 //slides individuelles
 #home{
-	background: #cc0000;
+	background-image: url('../img/home.jpg');
+	color: $couleur-texte-corporate;
+
+	h1{
+		margin-bottom: 0;
+		
+		@include breakpoint(mobile){
+			@include font-size(25);
+		}
+	}
+	h2{
+		font-weight: 400;
+		margin-bottom: 50px;
+		
+		@include breakpoint(mobile){
+			@include font-size(20);
+			margin-bottom: 30px;
+		}
+	}
+	strong{
+		display: block;
+		margin: auto;
+		text-align: center;
+		@include font-size(22);
+	}
 }
 #pourquoi{
-	background: #252525;
+	background: $couleur-fond-contraste;
 }

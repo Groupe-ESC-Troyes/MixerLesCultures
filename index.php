@@ -87,11 +87,15 @@
 	<section id="home" class="slide">
 		<div class="slide-inner">
 			<h1>
-				A title
+				Le Groupe ESC Troyes<br />
+				et le droit à l'expérimentation
 			</h1>
-			<p>
-				Some text motherfucker
-			</p>
+			<h2>
+				Récit d'une expérience
+			</h2>
+			<strong>
+				Lancement le 20 mars 2013
+			</strong>
 		</div>
 	</section>
 	<section id="pourquoi" class="slide">

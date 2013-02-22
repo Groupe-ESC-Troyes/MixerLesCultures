@@ -382,7 +382,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 44, ../scss/_base.scss */
+/* line 51, ../scss/_base.scss */
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -390,7 +390,7 @@ table {
   clear: both;
 }
 
-/* line 51, ../scss/_base.scss */
+/* line 58, ../scss/_base.scss */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -398,76 +398,76 @@ table {
 }
 
 /* Always force a scrollbar in non-IE */
-/* line 57, ../scss/_base.scss */
+/* line 64, ../scss/_base.scss */
 html {
   overflow-y: scroll;
 }
 
-/* line 62, ../scss/_base.scss */
+/* line 69, ../scss/_base.scss */
 img {
   max-width: 100%;
 }
 
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
-/* line 67, ../scss/_base.scss */
+/* line 74, ../scss/_base.scss */
 a:hover, a:active {
   outline: none;
 }
 
-/* line 70, ../scss/_base.scss */
+/* line 77, ../scss/_base.scss */
 ul, ol {
   list-style-position: inside;
   padding: 0;
   margin: 0;
 }
 
-/* line 75, ../scss/_base.scss */
+/* line 82, ../scss/_base.scss */
 ol {
   list-style-type: decimal;
 }
 
 /* Set sub, sup without affecting line-height: gist.github.com/413930 */
-/* line 79, ../scss/_base.scss */
+/* line 86, ../scss/_base.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
 }
 
-/* line 84, ../scss/_base.scss */
+/* line 91, ../scss/_base.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 87, ../scss/_base.scss */
+/* line 94, ../scss/_base.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 91, ../scss/_base.scss */
+/* line 98, ../scss/_base.scss */
 textarea {
   overflow: auto;
 }
 
 /* Hand cursor on clickable input elements */
-/* line 95, ../scss/_base.scss */
+/* line 102, ../scss/_base.scss */
 label, input[type="button"], input[type="submit"], input[type="image"], button {
   cursor: pointer;
 }
 
-/* line 98, ../scss/_base.scss */
+/* line 105, ../scss/_base.scss */
 input[type="radio"] {
   vertical-align: text-bottom;
 }
 
-/* line 101, ../scss/_base.scss */
+/* line 108, ../scss/_base.scss */
 input[type="checkbox"] {
   vertical-align: middle;
 }
 
 /* Make buttons play nice in IE:
    www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
-/* line 106, ../scss/_base.scss */
+/* line 113, ../scss/_base.scss */
 button {
   width: auto;
   overflow: visible;
@@ -475,14 +475,14 @@ button {
 
 /* Bicubic resizing for non-native sized IMG:
    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
-/* line 112, ../scss/_base.scss */
+/* line 119, ../scss/_base.scss */
 .ie7 img {
   -ms-interpolation-mode: bicubic;
 }
 
 /* Hide for both screenreaders and browsers:
    css-discuss.incutio.com/wiki/Screenreader_Visibility */
-/* line 117, ../scss/_base.scss */
+/* line 124, ../scss/_base.scss */
 .hidden {
   display: none;
   visibility: hidden;
@@ -490,7 +490,7 @@ button {
 
 /* Hide only visually, but have it available for screenreaders: by Jon Neal.
   www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
-/* line 123, ../scss/_base.scss */
+/* line 130, ../scss/_base.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -503,7 +503,7 @@ button {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
-/* line 134, ../scss/_base.scss */
+/* line 141, ../scss/_base.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -514,12 +514,12 @@ button {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 143, ../scss/_base.scss */
+/* line 150, ../scss/_base.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 147, ../scss/_base.scss */
+/* line 154, ../scss/_base.scss */
 small {
   display: block;
   margin: 20px 0 5px;
@@ -528,7 +528,7 @@ small {
 }
 
 @media print {
-  /* line 154, ../scss/_base.scss */
+  /* line 161, ../scss/_base.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -538,41 +538,41 @@ small {
   }
 
   /* Black prints faster: sanbeiji.com/archives/953 */
-  /* line 161, ../scss/_base.scss */
+  /* line 168, ../scss/_base.scss */
   a, a:visited {
     color: #444 !important;
     text-decoration: underline;
   }
 
-  /* line 165, ../scss/_base.scss */
+  /* line 172, ../scss/_base.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 168, ../scss/_base.scss */
+  /* line 175, ../scss/_base.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 171, ../scss/_base.scss */
+  /* line 178, ../scss/_base.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 174, ../scss/_base.scss */
+  /* line 181, ../scss/_base.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 178, ../scss/_base.scss */
+  /* line 185, ../scss/_base.scss */
   thead {
     display: table-header-group;
   }
 
   /* css-discuss.incutio.com/wiki/Printing_Tables */
-  /* line 181, ../scss/_base.scss */
+  /* line 188, ../scss/_base.scss */
   tr, img {
     page-break-inside: avoid;
   }
@@ -581,13 +581,13 @@ small {
     margin: 0.5cm;
 }
 
-  /* line 187, ../scss/_base.scss */
+  /* line 194, ../scss/_base.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 191, ../scss/_base.scss */
+  /* line 198, ../scss/_base.scss */
   h2, h3 {
     page-break-after: avoid;
   }
@@ -605,7 +605,7 @@ body {
 
 /* line 12, ../scss/style.scss */
 body, select, input, textarea {
-  color: #444444;
+  color: white;
   font-family: "Roboto", Helvetica, Arial;
   font-size: 16px;
   font-size: 1.6rem;
@@ -621,16 +621,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 24, ../scss/style.scss */
+h1 {
+  font-size: 32px;
+  font-size: 3.2rem;
+}
+
+/* line 27, ../scss/style.scss */
+h2 {
+  font-size: 25px;
+  font-size: 2.5rem;
+}
+
+/* line 30, ../scss/style.scss */
 strong, th {
   font-wieght: 700;
 }
 
-/* line 27, ../scss/style.scss */
+/* line 33, ../scss/style.scss */
 a, a:active, a:visited {
   color: inherit;
 }
 
-/* line 30, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 p {
   margin-top: 0;
   margin-bottom: 6px;
@@ -639,59 +651,57 @@ p {
   font-weight: 300;
 }
 
-/* line 37, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 ul,
 ol {
   font-size: 16px;
   font-size: 1.6rem;
 }
 
-/* line 41, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 li ul,
 li ol {
   margin-left: 20px;
 }
 
-/* line 46, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 #menu-container {
   background: #252525;
-  color: #fff;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
 }
 
-/* line 54, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 #menu-container a.menu-toggle {
   display: none;
-  color: #fff;
   padding: 10px;
   text-decoration: none;
 }
 @media (max-width: 767px) {
-  /* line 54, ../scss/style.scss */
+  /* line 59, ../scss/style.scss */
   #menu-container a.menu-toggle {
     display: block;
   }
 }
 
-/* line 64, ../scss/style.scss */
+/* line 68, ../scss/style.scss */
 #menu {
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  /* line 64, ../scss/style.scss */
+  /* line 68, ../scss/style.scss */
   #menu {
     max-height: 0em;
   }
-  /* line 70, ../scss/style.scss */
+  /* line 74, ../scss/style.scss */
   #menu.active {
     max-height: 20em;
   }
 }
 
-/* line 75, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 #menu ul {
   display: table;
   margin: auto;
@@ -699,37 +709,37 @@ li ol {
   text-align: center;
 }
 @media only screen and (min-width: 960px) {
-  /* line 75, ../scss/style.scss */
+  /* line 79, ../scss/style.scss */
   #menu ul {
     width: 960px;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 75, ../scss/style.scss */
+  /* line 79, ../scss/style.scss */
   #menu ul {
     width: 768px;
   }
 }
 @media (max-width: 767px) {
-  /* line 75, ../scss/style.scss */
+  /* line 79, ../scss/style.scss */
   #menu ul {
     display: block;
   }
 }
 
-/* line 91, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 #menu li {
   display: table-cell;
 }
 @media (max-width: 767px) {
-  /* line 91, ../scss/style.scss */
+  /* line 95, ../scss/style.scss */
   #menu li {
     display: block;
     border-top: 1px solid #bbbbbb;
   }
 }
 
-/* line 99, ../scss/style.scss */
+/* line 103, ../scss/style.scss */
 #menu a {
   display: block;
   text-decoration: none;
@@ -739,66 +749,110 @@ li ol {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-/* line 105, ../scss/style.scss */
+/* line 109, ../scss/style.scss */
 #menu a:hover {
   background: #f4f4f4;
   color: #252525;
 }
 
-/* line 112, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 section.slide {
   width: 100%;
   padding-top: 42px;
   padding-bottom: 20px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 @media only screen and (min-height: 700px) {
-  /* line 112, ../scss/style.scss */
+  /* line 116, ../scss/style.scss */
   section.slide {
     min-height: 700px;
   }
 }
 @media only screen and (min-height: 500px) and (max-height: 699px) {
-  /* line 112, ../scss/style.scss */
+  /* line 116, ../scss/style.scss */
   section.slide {
     min-height: 500px;
   }
 }
 @media only screen and (max-height: 499px) {
-  /* line 112, ../scss/style.scss */
+  /* line 116, ../scss/style.scss */
   section.slide {
     min-height: 300px;
   }
 }
 
-/* line 127, ../scss/style.scss */
+/* line 134, ../scss/style.scss */
 section.slide div.slide-inner {
   margin: auto;
+  padding-top: 40px;
 }
 @media only screen and (min-width: 960px) {
-  /* line 127, ../scss/style.scss */
+  /* line 134, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 960px;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 127, ../scss/style.scss */
+  /* line 134, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media (max-width: 767px) {
-  /* line 127, ../scss/style.scss */
+  /* line 134, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
-/* line 142, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 #home {
-  background: #cc0000;
+  background-image: url("../img/home.jpg");
+  color: #3f5049;
+}
+/* line 158, ../scss/style.scss */
+#home h1 {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  /* line 158, ../scss/style.scss */
+  #home h1 {
+    font-size: 25px;
+    font-size: 2.5rem;
+  }
+}
+/* line 165, ../scss/style.scss */
+#home h2 {
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  /* line 165, ../scss/style.scss */
+  #home h2 {
+    font-size: 20px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+}
+/* line 174, ../scss/style.scss */
+#home strong {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 22px;
+  font-size: 2.2rem;
 }
 
-/* line 145, ../scss/style.scss */
+/* line 181, ../scss/style.scss */
 #pourquoi {
   background: #252525;
 }
