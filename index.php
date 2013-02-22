@@ -18,7 +18,8 @@
 	
 	<meta name="viewport" content="width=device-width">
 	
-	<link rel="stylesheet" href="/css/style.css?v=0">
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,300,700|Roboto:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css?v=0">
 	
 	<!-- Candy -->
 	<link rel="dns-prefetch" href="//ajax.googleapis.com" />
@@ -40,6 +41,39 @@
 </head>
 <body>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	
+	<div id="menu-container">
+		<a href="#menu" class="menu-toggle">
+			Menu
+		</a>
+		
+		<nav id="menu" role="navigation">
+			<ul>
+				<li>
+					<a href="#">
+						Accueil
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Pourquoi
+					</a>
+				</li>
+			</ul>
+		</nav>
+		
+	</div>
+	
+	<section id="home" class="slide">
+		<div class="slider-inner">
+			<h1>
+				A title
+			</h1>
+			<p>
+				Some text motherfucker
+			</p>
+		</div>
+	</section>
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.9.1.min.js"><\/script>')</script>
