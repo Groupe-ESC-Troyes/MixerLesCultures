@@ -123,6 +123,8 @@
 			</h1>
 		</div>
 	</section>
+	<section id="prop1-image" class="slide">
+	</section>
 	<section id="prop1" class="slide">
 		<div class="slide-inner">
 			<h1>

@@ -938,6 +938,11 @@ section.slide div.slide-inner {
 }
 
 /* line 245, ../scss/style.scss */
-#prop1 {
+#prop1-image {
   background-image: url("../img/entrepreneuretudiant.jpg");
+}
+
+/* line 248, ../scss/style.scss */
+#prop1 {
+  background: #cb3521;
 }

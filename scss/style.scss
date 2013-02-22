@@ -242,6 +242,9 @@ section.slide div.slide-inner{
 	}
 }
 
-#prop1{
+#prop1-image{
 	background-image: url('../img/entrepreneuretudiant.jpg');
+}
+#prop1{
+	background: $couleur-fond-entrepreneur;
 }
