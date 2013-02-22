@@ -765,6 +765,7 @@ section.slide {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 @media only screen and (min-height: 700px) {
@@ -786,19 +787,19 @@ section.slide {
   }
 }
 
-/* line 134, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 section.slide div.slide-inner {
   margin: auto;
   padding-top: 40px;
 }
 @media only screen and (min-width: 960px) {
-  /* line 134, ../scss/style.scss */
+  /* line 135, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 960px;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 134, ../scss/style.scss */
+  /* line 135, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 100%;
     padding-left: 10px;
@@ -806,7 +807,7 @@ section.slide div.slide-inner {
   }
 }
 @media (max-width: 767px) {
-  /* line 134, ../scss/style.scss */
+  /* line 135, ../scss/style.scss */
   section.slide div.slide-inner {
     width: 100%;
     padding-left: 10px;
@@ -814,36 +815,36 @@ section.slide div.slide-inner {
   }
 }
 
-/* line 154, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 #home {
   background-image: url("../img/home.jpg");
   color: #3f5049;
 }
-/* line 158, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 #home h1 {
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
-  /* line 158, ../scss/style.scss */
+  /* line 159, ../scss/style.scss */
   #home h1 {
     font-size: 25px;
     font-size: 2.5rem;
   }
 }
-/* line 165, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 #home h2 {
   font-weight: 400;
   margin-bottom: 50px;
 }
 @media (max-width: 767px) {
-  /* line 165, ../scss/style.scss */
+  /* line 166, ../scss/style.scss */
   #home h2 {
     font-size: 20px;
     font-size: 2rem;
     margin-bottom: 30px;
   }
 }
-/* line 174, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 #home strong {
   display: block;
   margin: auto;
@@ -851,8 +852,87 @@ section.slide div.slide-inner {
   font-size: 22px;
   font-size: 2.2rem;
 }
+@media (max-width: 767px) {
+  /* line 175, ../scss/style.scss */
+  #home strong {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
 
-/* line 181, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 #pourquoi {
   background: #252525;
+}
+/* line 189, ../scss/style.scss */
+#pourquoi h1 {
+  margin-bottom: 40px;
+}
+/* line 192, ../scss/style.scss */
+#pourquoi h1 span {
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  /* line 192, ../scss/style.scss */
+  #pourquoi h1 span {
+    display: block;
+  }
+}
+/* line 199, ../scss/style.scss */
+#pourquoi strong {
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* line 204, ../scss/style.scss */
+#entrepreneur {
+  background: #cb3521;
+  position: relative;
+  overflow: hidden;
+}
+/* line 209, ../scss/style.scss */
+#entrepreneur h1 {
+  font-size: 60px;
+  font-size: 6rem;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  /* line 209, ../scss/style.scss */
+  #entrepreneur h1 {
+    font-size: 40px;
+    font-size: 4rem;
+    text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  /* line 220, ../scss/style.scss */
+  #entrepreneur h1 span {
+    display: block;
+  }
+}
+/* line 225, ../scss/style.scss */
+#entrepreneur:after {
+  content: "1";
+  position: absolute;
+  font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
+  font-weight: 700;
+  color: #e0867a;
+}
+@media only screen and (min-width: 960px) {
+  /* line 225, ../scss/style.scss */
+  #entrepreneur:after {
+    font-size: 600px;
+    font-size: 60rem;
+    bottom: -150px;
+    right: -20px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 225, ../scss/style.scss */
+  #entrepreneur:after {
+    font-size: 450px;
+    font-size: 45rem;
+    bottom: -120px;
+    right: -20px;
+  }
 }

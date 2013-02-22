@@ -119,6 +119,7 @@ section.slide{
 	padding-bottom: 20px;
 	@include background-size(cover);
 	background-position: center;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	
 	@media 	only screen and (min-height: 700px){
@@ -176,8 +177,67 @@ section.slide div.slide-inner{
 		margin: auto;
 		text-align: center;
 		@include font-size(22);
+		
+		@include breakpoint(mobile){
+			@include font-size(18);
+		}
 	}
 }
 #pourquoi{
 	background: $couleur-fond-contraste;
+
+	h1{
+		margin-bottom: 40px;
+	}
+	h1 span{
+		font-weight: 400;
+
+		@include breakpoint(mobile){
+			display: block;
+		}
+	}
+	strong{
+		margin-bottom: 15px;
+		display: block;
+	}
+}
+#entrepreneur{
+	background: $couleur-fond-entrepreneur;
+	position: relative;
+	overflow: hidden;
+
+	h1{
+		@include font-size(60);
+		text-align: center;
+		
+		@include breakpoint(mobile){
+			@include font-size(40);
+			text-align: left;
+		}
+	}
+	//retour à la ligne manuel
+	@include breakpoint(mobile){
+		h1 span{
+			display: block;
+		}
+	}
+	
+	&:after{
+		content: "1";
+		position: absolute;
+		font-family: $heading-font-family;
+		font-weight: 700;
+		color: #e0867a;
+	
+		@include breakpoint(desktop){
+			@include font-size(600);
+			bottom: -150px;
+			right: -20px;
+		}
+		@include breakpoint(mobile){
+			@include font-size(450);
+			bottom: -120px;
+			right: -20px;
+		}
+	}
 }
