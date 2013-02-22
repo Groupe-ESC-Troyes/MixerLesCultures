@@ -1,0 +1,43 @@
+@import "normalize";
+@import "base";
+
+//styles de base
+html{
+	font-size: 62.5%; 
+	height: 100%; 
+}
+body{
+	height: 100%;
+}
+body,select,input,textarea{
+	color: $font-color;
+	font-family: $font-family;
+	@include font-size($font-size);
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: $heading-font-family;
+	line-height: 1;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+strong,th {
+	font-wieght: 700;
+}
+a,a:active,a:visited{
+	color: inherit;
+}
+p{
+	margin-top: 0;
+	margin-bottom: 6px;
+	@include font-size($font-size);
+	font-weight: 300;
+}
+ul,
+ol{
+	@include font-size(16);
+}
+li ul,
+li ol{
+	margin-left: 20px;
+}
+
