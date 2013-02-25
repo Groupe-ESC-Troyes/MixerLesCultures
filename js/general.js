@@ -8,4 +8,7 @@ $(function(){
 		$menu.toggleClass('active');
 		return false;
 	});
+	
+	$.localScroll();
+	$('body').scrollspy({target: '#menu'});
 });

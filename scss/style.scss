@@ -133,6 +133,13 @@ div.content{
 		display: block;
 		border-top: 1px solid #bbbbbb;
 	}
+	
+	&:hover a,
+	& a:focus,
+	&.active a{
+		background: #f4f4f4;
+		color: #252525;
+	}
 }
 #menu a{
 	display: block;
@@ -141,12 +148,6 @@ div.content{
 	@include font-size(16);
 	padding: 10px 0;
 	@include transition();
-
-	&:hover,
-	&:focus{
-		background: #f4f4f4;
-		color: #252525;
-	}
 }
 
 //ruban
