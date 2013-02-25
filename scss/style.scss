@@ -92,7 +92,7 @@ div.content{
 }
 #menu-container a.menu-toggle{
 	display: none;
-	padding: 10px;
+	padding: 15px 10px;
 	text-decoration: none;
 
 	@include breakpoint(mobile){
@@ -100,11 +100,10 @@ div.content{
 	}
 }
 #menu{
-	overflow: hidden;
-
 	@include breakpoint(mobile){
 		max-height: 0em;
-	
+		overflow: hidden;
+
 		&.active{
 			max-height: 20em;
 		}
@@ -126,6 +125,7 @@ div.content{
 		display: block;
 	}
 }
+$active-menu-background: #efefef;
 #menu li{
 	display: table-cell;
 
@@ -137,17 +137,56 @@ div.content{
 	&:hover a,
 	& a:focus,
 	&.active a{
-		background: #f4f4f4;
+		background: $active-menu-background;
 		color: #252525;
+	
+		@include breakpoint(desktop){
+			&:before,
+			&:after{
+				display: block;
+			}
+		}
+		@include breakpoint(tablet){
+			&:before,
+			&:after{
+				display: block;
+			}
+		}
 	}
 }
 #menu a{
+	position: relative;
 	display: block;
 	text-decoration: none;
 	font-weight: 700;
 	@include font-size(16);
 	padding: 10px 0;
 	@include transition();
+
+	$fold-height: 10px;
+	$fold-width: 7px;
+	&:before{
+		content: "";
+		display: none;	
+		position: absolute;
+		bottom: -$fold-height;
+		left: 0;
+		right: 0;
+		border-top: $fold-height solid $active-menu-background;
+	}
+	&:after{
+		content: "";
+		display: none;
+		position: absolute;
+		bottom: -$fold-height;
+		right: -$fold-width;
+		border: 0 solid darken($active-menu-background, 10);
+		border-bottom-width: $fold-height;
+		border-left-width: $fold-width;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+	}
 }
 
 //ruban
