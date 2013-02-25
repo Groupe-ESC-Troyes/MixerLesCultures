@@ -121,7 +121,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="entrepreneur" class="slide">
+	<section id="entrepreneur" class="slide valeur">
 		<div class="slide-inner">
 			<h1>
 				<span>Entre</span>preneuriat
@@ -139,7 +139,7 @@
 			<ul class="prop-links clearfix">
 				<li>
 					<div class="wrap" data-num="#3">
-						<a href="#" data-num="#3">
+						<a href="#">
 							Développer une filière entrepreneur-études
 						</a>
 					</div>
@@ -190,6 +190,54 @@
 					Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.
 				</p>
 			</div>
+		</div>
+	</section>
+	<section id="transversalite" class="slide valeur">
+		<div class="slide-inner">
+			<h1>
+				<span>Trans</span>versalité
+			</h1>
+			
+			<div class="ribbon-wrapper">
+				<blockquote cite="Henry Ford">
+					&ldquo;Se réunir est un début ; rester ensemble est un progrès ; travailler ensemble est une réussite.&rdquo;
+					<cite>
+						Henry Ford
+					</cite>
+				</blockquote>
+			</div>
+			
+			<ul class="prop-links clearfix">
+				<li>
+					<div class="wrap" data-num="#1">
+						<a href="#">
+							Lutter contre les silos au lycée
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap" data-num="#4">
+						<a href="#">
+							Encourager les thèses pluri-disciplinaires
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap" data-num="#5">
+						<a href="#">
+							Former davantage à la créativité
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap" data-num="#8">
+						<a href="#">
+							Rapprocher les grandes écoles des universités
+							par la mise en commun du corps enseignant
+						</a>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</section>
 	

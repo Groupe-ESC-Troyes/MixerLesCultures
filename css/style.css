@@ -875,36 +875,227 @@ section.slide div.slide-inner {
   }
 }
 
-/* line 229, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
+section.valeur h1 {
+  font-size: 60px;
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+  /* line 228, ../scss/style.scss */
+  section.valeur h1 {
+    font-size: 40px;
+    font-size: 4rem;
+    text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  /* line 240, ../scss/style.scss */
+  section.valeur h1 span {
+    display: block;
+  }
+}
+/* line 245, ../scss/style.scss */
+section.valeur blockquote {
+  display: inline-block;
+  position: relative;
+  background: #f4f4f4;
+  font-size: 22px;
+  font-size: 2.2rem;
+  margin: auto;
+  padding: 5px 100px;
+  font-weight: 700;
+  color: #252525;
+  text-align: center;
+}
+/* line 158, ../scss/style.scss */
+section.valeur blockquote:before, section.valeur blockquote:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0 solid #dbdbdb;
+  border-top-width: 0;
+  border-bottom-width: 15px;
+}
+/* line 166, ../scss/style.scss */
+section.valeur blockquote:before {
+  left: 0;
+  bottom: -15px;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-width: 0;
+  border-right-width: 50px;
+}
+/* line 175, ../scss/style.scss */
+section.valeur blockquote:after {
+  right: 0;
+  bottom: -15px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-width: 0;
+  border-left-width: 50px;
+}
+@media (max-width: 767px) {
+  /* line 245, ../scss/style.scss */
+  section.valeur blockquote {
+    padding: 5px 7%;
+  }
+}
+/* line 259, ../scss/style.scss */
+section.valeur cite {
+  display: block;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 2rem;
+  text-align: right;
+}
+/* line 267, ../scss/style.scss */
+section.valeur ul.prop-links {
+  margin: 50px auto 0;
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+}
+/* line 273, ../scss/style.scss */
+section.valeur ul.prop-links li {
+  display: inline-block;
+  width: 35%;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+@media (max-width: 767px) {
+  /* line 273, ../scss/style.scss */
+  section.valeur ul.prop-links li {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+/* line 288, ../scss/style.scss */
+section.valeur ul.prop-links div.wrap {
+  display: table;
+  width: 100%;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/* line 294, ../scss/style.scss */
+section.valeur ul.prop-links div.wrap:after {
+  content: attr(data-num);
+  position: absolute;
+  right: -7px;
+  bottom: -30px;
+  font-size: 110px;
+  font-size: 11rem;
+  font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
+  font-weight: 700;
+  z-index: 1;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/* line 305, ../scss/style.scss */
+section.valeur ul.prop-links div.wrap:hover:after {
+  right: 5px;
+}
+/* line 309, ../scss/style.scss */
+section.valeur ul.prop-links a {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 10px;
+  height: 150px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
+  font-size: 22px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.3em;
+  z-index: 10;
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  /* line 309, ../scss/style.scss */
+  section.valeur ul.prop-links a {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 1.2em;
+  }
+}
+/* line 331, ../scss/style.scss */
+section.valeur:after {
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
+  font-weight: 700;
+  z--index: -1;
+}
+@media only screen and (min-width: 960px) {
+  /* line 331, ../scss/style.scss */
+  section.valeur:after {
+    font-size: 600px;
+    font-size: 60rem;
+    bottom: -150px;
+    right: -20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  /* line 331, ../scss/style.scss */
+  section.valeur:after {
+    font-size: 400px;
+    font-size: 40rem;
+    bottom: -150px;
+    right: -20px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 331, ../scss/style.scss */
+  section.valeur:after {
+    display: none;
+  }
+}
+
+/* line 355, ../scss/style.scss */
 #home {
   background-image: url("../img/home.jpg");
   color: #3f5049;
 }
-/* line 233, ../scss/style.scss */
+/* line 359, ../scss/style.scss */
 #home h1 {
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
-  /* line 233, ../scss/style.scss */
+  /* line 359, ../scss/style.scss */
   #home h1 {
     font-size: 25px;
     font-size: 2.5rem;
   }
 }
-/* line 240, ../scss/style.scss */
+/* line 366, ../scss/style.scss */
 #home h2 {
   font-weight: 400;
   margin-bottom: 50px;
 }
 @media (max-width: 767px) {
-  /* line 240, ../scss/style.scss */
+  /* line 366, ../scss/style.scss */
   #home h2 {
     font-size: 20px;
     font-size: 2rem;
     margin-bottom: 30px;
   }
 }
-/* line 249, ../scss/style.scss */
+/* line 375, ../scss/style.scss */
 #home strong {
   display: block;
   margin: auto;
@@ -913,13 +1104,13 @@ section.slide div.slide-inner {
   font-size: 2.2rem;
 }
 @media (max-width: 767px) {
-  /* line 249, ../scss/style.scss */
+  /* line 375, ../scss/style.scss */
   #home strong {
     font-size: 18px;
     font-size: 1.8rem;
   }
 }
-/* line 260, ../scss/style.scss */
+/* line 386, ../scss/style.scss */
 #home a.download {
   display: block;
   text-align: center;
@@ -966,236 +1157,78 @@ section.slide div.slide-inner {
   border-right-width: 0;
   border-left-width: 50px;
 }
-/* line 273, ../scss/style.scss */
+/* line 399, ../scss/style.scss */
 #home a.download:hover, #home a.download:focus {
   background: #485b53;
 }
 
-/* line 278, ../scss/style.scss */
+/* line 404, ../scss/style.scss */
 #pourquoi {
   background: #252525;
 }
-/* line 281, ../scss/style.scss */
+/* line 407, ../scss/style.scss */
 #pourquoi h1 span {
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  /* line 281, ../scss/style.scss */
+  /* line 407, ../scss/style.scss */
   #pourquoi h1 span {
     display: block;
   }
 }
 
-/* line 289, ../scss/style.scss */
+/* line 415, ../scss/style.scss */
 #entrepreneur {
   background: #cb3521;
   position: relative;
   overflow: hidden;
 }
-/* line 294, ../scss/style.scss */
-#entrepreneur h1 {
-  font-size: 60px;
-  font-size: 6rem;
-  text-align: center;
-  margin-bottom: 30px;
-}
-@media (max-width: 767px) {
-  /* line 294, ../scss/style.scss */
-  #entrepreneur h1 {
-    font-size: 40px;
-    font-size: 4rem;
-    text-align: left;
-  }
-}
-@media (max-width: 767px) {
-  /* line 306, ../scss/style.scss */
-  #entrepreneur h1 span {
-    display: block;
-  }
-}
-/* line 311, ../scss/style.scss */
-#entrepreneur blockquote {
-  display: inline-block;
-  position: relative;
-  background: #f4f4f4;
-  font-size: 22px;
-  font-size: 2.2rem;
-  margin: auto;
-  padding: 5px 100px;
-  font-weight: 700;
-  color: #252525;
-  text-align: center;
-}
-/* line 158, ../scss/style.scss */
-#entrepreneur blockquote:before, #entrepreneur blockquote:after {
-  content: "";
-  position: absolute;
-  display: block;
-  border: 0 solid #dbdbdb;
-  border-top-width: 0;
-  border-bottom-width: 15px;
-}
-/* line 166, ../scss/style.scss */
-#entrepreneur blockquote:before {
-  left: 0;
-  bottom: -15px;
-  border-left-color: transparent;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  border-left-width: 0;
-  border-right-width: 50px;
-}
-/* line 175, ../scss/style.scss */
-#entrepreneur blockquote:after {
-  right: 0;
-  bottom: -15px;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  border-right-width: 0;
-  border-left-width: 50px;
-}
-@media (max-width: 767px) {
-  /* line 311, ../scss/style.scss */
-  #entrepreneur blockquote {
-    padding: 5px 7%;
-  }
-}
-/* line 325, ../scss/style.scss */
-#entrepreneur cite {
-  display: block;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 20px;
-  font-size: 2rem;
-  text-align: right;
-}
-/* line 333, ../scss/style.scss */
-#entrepreneur ul.prop-links {
-  margin: 50px auto 0;
-  list-style: none;
-  text-align: center;
-  font-size: 0;
-}
-/* line 339, ../scss/style.scss */
-#entrepreneur ul.prop-links li {
-  display: inline-block;
-  width: 35%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-bottom: 30px;
-  line-height: 1;
-}
-@media (max-width: 767px) {
-  /* line 339, ../scss/style.scss */
-  #entrepreneur ul.prop-links li {
-    display: block;
-    width: 100%;
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
-/* line 354, ../scss/style.scss */
+/* line 420, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap {
-  display: table;
-  width: 100%;
-  position: relative;
   background: #8e2011;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
 }
-/* line 361, ../scss/style.scss */
+/* line 422, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:hover {
   background: #771b0e;
 }
-/* line 365, ../scss/style.scss */
+/* line 426, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:after {
-  content: attr(data-num);
-  position: absolute;
-  right: -7px;
-  bottom: -30px;
-  font-size: 110px;
-  font-size: 11rem;
   color: #cb3521;
-  font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
-  font-weight: 700;
-  z-index: 1;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
 }
-/* line 377, ../scss/style.scss */
-#entrepreneur ul.prop-links div.wrap:hover:after {
-  right: 5px;
-}
-/* line 381, ../scss/style.scss */
-#entrepreneur ul.prop-links a {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0 10px;
-  height: 150px;
-  text-align: left;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
-  font-size: 22px;
-  font-size: 2.2rem;
-  font-weight: 700;
-  line-height: 1.3em;
-  z-index: 10;
-}
-@media (min-width: 768px) and (max-width: 959px) {
-  /* line 381, ../scss/style.scss */
-  #entrepreneur ul.prop-links a {
-    font-size: 20px;
-    font-size: 2rem;
-    line-height: 1.2em;
-  }
-}
-/* line 403, ../scss/style.scss */
+/* line 431, ../scss/style.scss */
 #entrepreneur:after {
   content: "1";
-  position: absolute;
-  font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
-  font-weight: 700;
-  color: #e0867a;
-  z--index: -1;
-}
-@media only screen and (min-width: 960px) {
-  /* line 403, ../scss/style.scss */
-  #entrepreneur:after {
-    font-size: 600px;
-    font-size: 60rem;
-    bottom: -150px;
-    right: -20px;
-  }
-}
-@media (min-width: 768px) and (max-width: 959px) {
-  /* line 403, ../scss/style.scss */
-  #entrepreneur:after {
-    font-size: 400px;
-    font-size: 40rem;
-    bottom: -150px;
-    right: -20px;
-  }
-}
-@media (max-width: 767px) {
-  /* line 403, ../scss/style.scss */
-  #entrepreneur:after {
-    display: none;
-  }
 }
 
-/* line 427, ../scss/style.scss */
+/* line 436, ../scss/style.scss */
 #prop1-image {
   background-image: url("../img/entrepreneuretudiant.jpg");
 }
 
-/* line 430, ../scss/style.scss */
+/* line 439, ../scss/style.scss */
 #prop1 {
   background: #cb3521;
+}
+
+/* line 443, ../scss/style.scss */
+#transversalite {
+  background: #2145cb;
+  position: relative;
+  overflow: hidden;
+}
+/* line 448, ../scss/style.scss */
+#transversalite ul.prop-links div.wrap {
+  background: #1331a1;
+}
+/* line 450, ../scss/style.scss */
+#transversalite ul.prop-links div.wrap:hover {
+  background: #102a8a;
+}
+/* line 454, ../scss/style.scss */
+#transversalite ul.prop-links div.wrap:after {
+  color: #2145cb;
+}
+/* line 459, ../scss/style.scss */
+#transversalite:after {
+  content: "2";
 }
