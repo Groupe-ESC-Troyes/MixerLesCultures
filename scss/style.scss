@@ -344,6 +344,7 @@ section.valeur{
 		display: table;
 		width: 100%;
 		position: relative;
+		z-index: 1;
 		@include transition();
 		
 		&:after{
@@ -354,7 +355,7 @@ section.valeur{
 			@include font-size(110);
 			font-family: $heading-font-family;
 			font-weight: 700;
-			z-index: 1;
+			z-index: 2;
 			@include transition();
 		}
 		&:hover:after{

@@ -3,12 +3,14 @@ $(function(){
 	var $menu = $('#menu'),
 		$menulink = $('.menu-toggle');
   
-	$menulink.click(function(){
+	$menulink.click(function(event){
 		$menulink.toggleClass('active');
 		$menu.toggleClass('active');
+		event.preventDefault();
+		event.stropPropagation();
 		return false;
 	});
 	
-	$.localScroll();
-	$('body').scrollspy({target: '#menu'});
+	$.localScroll({hash: true});
+	$('body').scrollspy({target: '#menu', offset: 100});
 });

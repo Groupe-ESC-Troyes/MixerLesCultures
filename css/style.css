@@ -1036,12 +1036,13 @@ section.valeur ul.prop-links div.wrap {
   display: table;
   width: 100%;
   position: relative;
+  z-index: 1;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-/* line 349, ../scss/style.scss */
+/* line 350, ../scss/style.scss */
 section.valeur ul.prop-links div.wrap:after {
   content: attr(data-num);
   position: absolute;
@@ -1051,17 +1052,17 @@ section.valeur ul.prop-links div.wrap:after {
   font-size: 11rem;
   font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
   font-weight: 700;
-  z-index: 1;
+  z-index: 2;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-/* line 360, ../scss/style.scss */
+/* line 361, ../scss/style.scss */
 section.valeur ul.prop-links div.wrap:hover:after {
   right: 5px;
 }
-/* line 364, ../scss/style.scss */
+/* line 365, ../scss/style.scss */
 section.valeur ul.prop-links a {
   position: relative;
   display: table-cell;
@@ -1078,20 +1079,20 @@ section.valeur ul.prop-links a {
   line-height: 1.3em;
   z-index: 10;
 }
-/* line 379, ../scss/style.scss */
+/* line 380, ../scss/style.scss */
 section.valeur ul.prop-links a.long {
   font-size: 18px;
   font-size: 1.8rem;
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 364, ../scss/style.scss */
+  /* line 365, ../scss/style.scss */
   section.valeur ul.prop-links a {
     font-size: 20px;
     font-size: 2rem;
     line-height: 1.2em;
   }
 }
-/* line 390, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 section.valeur:after {
   color: rgba(255, 255, 255, 0.4);
   position: absolute;
@@ -1100,7 +1101,7 @@ section.valeur:after {
   z--index: -1;
 }
 @media only screen and (min-width: 960px) {
-  /* line 390, ../scss/style.scss */
+  /* line 391, ../scss/style.scss */
   section.valeur:after {
     font-size: 600px;
     font-size: 60rem;
@@ -1109,7 +1110,7 @@ section.valeur:after {
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 390, ../scss/style.scss */
+  /* line 391, ../scss/style.scss */
   section.valeur:after {
     font-size: 400px;
     font-size: 40rem;
@@ -1118,13 +1119,13 @@ section.valeur:after {
   }
 }
 @media (max-width: 767px) {
-  /* line 390, ../scss/style.scss */
+  /* line 391, ../scss/style.scss */
   section.valeur:after {
     display: none;
   }
 }
 
-/* line 414, ../scss/style.scss */
+/* line 415, ../scss/style.scss */
 #home {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1136,31 +1137,31 @@ section.valeur:after {
   background-image: url("../img/home.jpg");
   color: #3f5049;
 }
-/* line 422, ../scss/style.scss */
+/* line 423, ../scss/style.scss */
 #home h1 {
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
-  /* line 422, ../scss/style.scss */
+  /* line 423, ../scss/style.scss */
   #home h1 {
     font-size: 25px;
     font-size: 2.5rem;
   }
 }
-/* line 429, ../scss/style.scss */
+/* line 430, ../scss/style.scss */
 #home h2 {
   font-weight: 400;
   margin-bottom: 50px;
 }
 @media (max-width: 767px) {
-  /* line 429, ../scss/style.scss */
+  /* line 430, ../scss/style.scss */
   #home h2 {
     font-size: 20px;
     font-size: 2rem;
     margin-bottom: 30px;
   }
 }
-/* line 438, ../scss/style.scss */
+/* line 439, ../scss/style.scss */
 #home strong {
   display: block;
   margin: auto;
@@ -1169,13 +1170,13 @@ section.valeur:after {
   font-size: 2.2rem;
 }
 @media (max-width: 767px) {
-  /* line 438, ../scss/style.scss */
+  /* line 439, ../scss/style.scss */
   #home strong {
     font-size: 18px;
     font-size: 1.8rem;
   }
 }
-/* line 449, ../scss/style.scss */
+/* line 450, ../scss/style.scss */
 #home a.download {
   display: block;
   text-align: center;
@@ -1222,101 +1223,101 @@ section.valeur:after {
   border-right-width: 0;
   border-left-width: 50px;
 }
-/* line 462, ../scss/style.scss */
+/* line 463, ../scss/style.scss */
 #home a.download:hover, #home a.download:focus {
   background: #485b53;
 }
 
-/* line 467, ../scss/style.scss */
+/* line 468, ../scss/style.scss */
 #pourquoi {
   background: #252525;
 }
-/* line 470, ../scss/style.scss */
+/* line 471, ../scss/style.scss */
 #pourquoi h1 span {
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  /* line 470, ../scss/style.scss */
+  /* line 471, ../scss/style.scss */
   #pourquoi h1 span {
     display: block;
   }
 }
 
-/* line 478, ../scss/style.scss */
+/* line 479, ../scss/style.scss */
 #entrepreneur {
   background: #cb3521;
   position: relative;
   overflow: hidden;
 }
-/* line 483, ../scss/style.scss */
+/* line 484, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap {
   background: #8e2011;
 }
-/* line 485, ../scss/style.scss */
+/* line 486, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:hover {
   background: #771b0e;
 }
-/* line 489, ../scss/style.scss */
+/* line 490, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:after {
   color: #cb3521;
 }
-/* line 494, ../scss/style.scss */
+/* line 495, ../scss/style.scss */
 #entrepreneur:after {
   content: "1";
 }
 
-/* line 499, ../scss/style.scss */
+/* line 500, ../scss/style.scss */
 #prop1-image > div {
   background-image: url("../img/entrepreneuretudiant.jpg");
 }
 
-/* line 502, ../scss/style.scss */
+/* line 503, ../scss/style.scss */
 #prop1 {
   background: #cb3521;
 }
 
-/* line 506, ../scss/style.scss */
+/* line 507, ../scss/style.scss */
 #transversalite {
   background: #2145cb;
   position: relative;
   overflow: hidden;
 }
-/* line 511, ../scss/style.scss */
+/* line 512, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap {
   background: #1331a1;
 }
-/* line 513, ../scss/style.scss */
+/* line 514, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap:hover {
   background: #102a8a;
 }
-/* line 517, ../scss/style.scss */
+/* line 518, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap:after {
   color: #2145cb;
 }
-/* line 522, ../scss/style.scss */
+/* line 523, ../scss/style.scss */
 #transversalite:after {
   content: "2";
 }
 
-/* line 527, ../scss/style.scss */
+/* line 528, ../scss/style.scss */
 #ouverture {
   background: #ce2c9a;
   position: relative;
   overflow: hidden;
 }
-/* line 532, ../scss/style.scss */
+/* line 533, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap {
   background: #8b1164;
 }
-/* line 534, ../scss/style.scss */
+/* line 535, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap:hover {
   background: #740e54;
 }
-/* line 538, ../scss/style.scss */
+/* line 539, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap:after {
   color: #ce2c9a;
 }
-/* line 543, ../scss/style.scss */
+/* line 544, ../scss/style.scss */
 #ouverture:after {
   content: "3";
 }
