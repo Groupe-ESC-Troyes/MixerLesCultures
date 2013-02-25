@@ -48,7 +48,7 @@
 		</a>
 		
 		<nav id="menu" role="navigation">
-			<ul class="nav">
+			<ul>
 				<li>
 					<a href="#home">
 						Accueil
@@ -83,7 +83,7 @@
 		</nav>
 		
 	</div>
-	
+		
 	<section id="home" class="slide">
 		<div class="slide-inner">
 			<h1>
