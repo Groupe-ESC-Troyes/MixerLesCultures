@@ -192,10 +192,6 @@ section.slide{
 	width: 100%;
 	padding-top: 42px;
 	padding-bottom: 20px;
-	@include background-size(cover);
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 	
 	@media 	only screen and (min-height: 700px){
 		min-height: 700px;
@@ -205,6 +201,25 @@ section.slide{
 	}
 	@media 	only screen and (max-height: 499px){
 		min-height: 300px;
+	}
+}
+section.slide.image{
+	position: relative;
+	
+	@include breakpoint(mobile){
+		display: none;
+	}
+	
+	& > div{
+		@include background-size(cover);
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
 	}
 }
 section.slide div.slide-inner{
@@ -246,7 +261,7 @@ section.valeur{
 	blockquote{
 		display: inline-block;
 		@include ribbon(#f4f4f4);
-		@include font-size(22);
+		@include font-size(20);
 		margin: auto;
 		padding: 5px 100px;
 		font-weight: 700;
@@ -261,7 +276,7 @@ section.valeur{
 		display: block;
 		font-weight: 300;
 		font-style: normal;
-		@include font-size(20);
+		@include font-size(18);
 		text-align: right;
 	}
 	
@@ -317,10 +332,14 @@ section.valeur{
 		text-decoration: none;
 		text-transform: uppercase;
 		font-family: $heading-font-family;
-		@include font-size(22);
+		@include font-size(20);
 		font-weight: 700;
 		line-height: 1.3em;
 		z-index: 10;
+		
+		&.long{
+			@include font-size(18);
+		}
 		
 		@include breakpoint(tablet){
 			@include font-size(20);
@@ -354,6 +373,10 @@ section.valeur{
 
 //slides individuelles
 #home{
+	@include background-size(cover);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	background-image: url('../img/home.jpg');
 	color: $couleur-texte-corporate;
 
@@ -434,7 +457,7 @@ section.valeur{
 	}
 }
 
-#prop1-image{
+#prop1-image > div{
 	background-image: url('../img/entrepreneuretudiant.jpg');
 }
 #prop1{
@@ -459,5 +482,26 @@ section.valeur{
 	
 	&:after{
 		content: "2";
+	}
+}
+
+#ouverture{
+	background: $couleur-fond-ouverture;
+	position: relative;
+	overflow: hidden;
+
+	ul.prop-links div.wrap{
+		background: #8b1164;
+		&:hover{
+			background: darken(#8b1164, 5);
+		}
+		
+		&:after{
+			color: $couleur-fond-ouverture;
+		}
+	}
+	
+	&:after{
+		content: "3";
 	}
 }

@@ -1,3 +1,4 @@
+<?php header('Content-Type: text/html; charset=utf-8'); ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="fr"> <![endif]-->
 <!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="fr"> <![endif]-->
@@ -129,7 +130,7 @@
 			
 			<div class="ribbon-wrapper">
 				<blockquote cite="Jacques Barraux">
-					&ldquo;Entreprendre, c'est toujours un peu casser l'ordre établi.&rdquo;
+					&laquo;Entreprendre, c'est toujours un peu casser l'ordre établi.&raquo;
 					<cite>
 						Jacques Barraux
 					</cite>
@@ -168,7 +169,10 @@
 			</ul>
 		</div>
 	</section>
-	<section id="prop1-image" class="slide">
+	<section id="prop1-image" class="slide image">
+		<div></div>
+	<div>
+	</div>
 	</section>
 	<section id="prop1" class="slide">
 		<div class="slide-inner">
@@ -200,7 +204,7 @@
 			
 			<div class="ribbon-wrapper">
 				<blockquote cite="Henry Ford">
-					&ldquo;Se réunir est un début ; rester ensemble est un progrès ; travailler ensemble est une réussite.&rdquo;
+					&laquo;Se réunir est un début ; rester ensemble est un progrès ; travailler ensemble est une réussite.&raquo;
 					<cite>
 						Henry Ford
 					</cite>
@@ -231,9 +235,59 @@
 				</li>
 				<li>
 					<div class="wrap" data-num="#8">
-						<a href="#">
+						<a href="#" class="long">
 							Rapprocher les grandes écoles des universités
 							par la mise en commun du corps enseignant
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="ouverture" class="slide valeur">
+		<div class="slide-inner">
+			<h1>
+				Ouverture
+				<span>
+					Sociale
+				</span>
+			</h1>
+			
+			<div class="ribbon-wrapper">
+				<blockquote cite="Anonyme">
+					&laquo;L'aventure, c'est d'abord l'ouverture aux autres&raquo;
+					<cite>
+						Anonyme
+					</cite>
+				</blockquote>
+			</div>
+			
+			<ul class="prop-links clearfix">
+				<li>
+					<div class="wrap" data-num="#1">
+						<a href="#" class="long">
+							Considérer l'ouverture sociale comme un moteur et non comme une contrainte
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap" data-num="#3">
+						<a href="#" class="long">
+							Favoriser les liens avec les mileiux sociaux, économiques et culturels 
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap" data-num="#4">
+						<a href="#" class="long">
+							Réaliser des partenariats entre enseignement supérieur et enseignement secondaire
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap" data-num="#6">
+						<a href="#">
+							Développer un &laquo;Erasmus&raquo; des professeurs
 						</a>
 					</div>
 				</li>
