@@ -140,28 +140,28 @@
 			<ul class="prop-links clearfix">
 				<li>
 					<div class="wrap" data-num="#3">
-						<a href="#">
+						<a href="#prop1">
 							Développer une filière entrepreneur-études
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#4">
-						<a href="#">
+						<a href="#prop2">
 							Créer un statut entrepreneur-étudiant
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#9">
-						<a href="#">
-							Créer un label "Pépinière de jeunes chercheurs"
+						<a href="#prop3">
+							Créer un label &laquo;Pépinière de jeunes chercheurs&raquo;
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#11">
-						<a href="#">
+						<a href="#prop4">
 							Faciliter les contrats mixtes laboratoire-entreprise
 						</a>
 					</div>
@@ -171,8 +171,6 @@
 	</section>
 	<section id="prop1-image" class="slide image">
 		<div></div>
-	<div>
-	</div>
 	</section>
 	<section id="prop1" class="slide">
 		<div class="slide-inner">
@@ -185,13 +183,161 @@
 			<hr />
 			<div class="content">
 				<p>
-					Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
+					Le gouvernement a, depuis longtemps, favorisé l’émergence
+					de sportifs de haut niveau en travaillant avec les fédérations
+					autour de la filière sport-études. Nous souhaitons diffuser
+					ce genre d’initiative avec un parcours entrepreneur-études
+					pour des jeunes présentant des potentialités pour l’entrepreneuriat.
+					Sur le principe du volontariat, dès le secondaire,
+					des élèves auraient une demi-journée par semaine pour
+					travailler sur leur projet.
 				</p>
 				<p>
-					The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.
+					Il faut faire émerger une nouvelle génération ambitieuse
+					et innovante de dirigeants d’entreprise. Les élèves doivent
+					pouvoir être confrontés jeunes au fait de diriger une entreprise
+					afin de dédiaboliser ce métier. Les patrons ont parfois
+					mauvaise réputation et être dirigeant n’est pas toujours
+					considéré comme noble.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="prop2-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop2" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Créer un statut entrepreneur-étudiant
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					Ce statut permettrait d’accompagner et de protéger davantage
+					le potentiel des jeunes entrepreneurs tant en matière de
+					développement d’activités nouvelles que de capitalisation
+					ou de facilitation des démarches administratives (déclaration
+					unique d’embauche par exemple si le jeune créateur
+					souhaite salarier une personne). Un jury mixte, composé de
+					membres des structures d’accompagnement et des grandes
+					écoles, sélectionnerait des candidats qui suivraient un cursus
+					spécifique. Cette sélection porterait d’ailleurs moins sur
+					des critères académiques que sur la capacité des étudiants à
+					porter un projet de création d’activités nouvelles.
 				</p>
 				<p>
-					Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.
+					Les candidats sélectionnés devraient avoir accès à un statut
+					spécifique d’étudiant entrepreneur. Lorsqu’un étudiant de
+					fin de cursus souhaite créer son entreprise, les écoles et
+					établissements d’enseignement supérieur qui sont organisés
+					autour d’une dynamique entrepreneuriale lui laissent
+					généralement la possibilité de transformer son stage de fin
+					d’études en parcours personnalisé au sein d’un incubateur
+					étudiant.
+				</p>
+				<p>
+					L’étudiant ne bénéficie, la plupart du temps, pas des mêmes
+					droits que ses camarades stagiaires (gratifications, protection
+					sociale, avantages en nature). L’entrepreneuriat n’est
+					pas encouragé car il n’existe pas de statut national d’étudiant
+					entrepreneur. Les établissements gèrent ces situations
+					au cas par cas, à leur niveau, ce qui contribue à la marginalisation
+					de l’entrepreneuriat. La création d’un statut
+					spécifique plus protecteur pour les étudiants entrepreneurs
+					permettrait d’inciter à la création d’entreprise et donnerait
+					à l’entrepreneuriat un cadre réglementaire prédéfini.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="prop3-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop3" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Créer un label &laquo;Pépinière de jeunes chercheurs&raquo;
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					En matière de recherche, les jeunes et petites institutions servent
+					souvent de centre de formation des jeunes chercheurs. Lesquels,
+					une fois reconnus, partent pour des établissements très prestigieux
+					et installés.
+				</p>
+				<p>
+					Nous pourrions créer un label de « pépinière de jeunes chercheurs
+					» pour ces institutions, qui recevraient des aides pour leur
+					travail en échange d’un cahier des charges précis incluant une
+					sensibilisation à l’entrepreneuriat et des actions de valorisation
+					et de transfert vers l’économie.
+				</p>
+				<p>
+					Trop souvent, les chercheurs déposant un brevet le revendent
+					par la suite sans aller jusqu’à la création d’un business. Cela est
+					laissé aux grands groupes, moins générateurs d’emplois. Donner
+					la fibre entrepreneuriale à ces jeunes talents permettrait de créer
+					de la richesse et de l’innovation.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="prop4-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop4" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Faciliter les contrats mixtes laboratoire-entreprise
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					Le monde académique et le monde de l’entreprise s’ignorent
+					depuis trop longtemps. Il devient même difficile de parler de
+					dialogue entre ces deux univers sans être accusé de vouloir
+					arrêter la recherche fondamentale ou de soumettre la science
+					aux intérêts privés.
+				</p>
+				<p>
+					Pourtant, il n’en est rien. Nous ne sommes pas ici dans une
+					démarche de prise de pouvoir des uns sur les autres. Nous prônons
+					un dialogue pour apprendre à se connaître et faire émerger
+					de nouvelles idées.
+				</p>
+					Légalement, nous n’avons d’autre choix que de dédier le contrat
+					de travail d’un enseignant-chercheur de manière exclusive à
+					une structure, à l’intérieur de laquelle, il développe sa recherche
+					dans le laboratoire rattaché à cet établissement. Bien que ceuxci
+					disposent de cellules de valorisation faisant la passerelle avec
+					des acteurs économiques, la relation nouée fait essentiellement
+					référence à un rapport client/fournisseur.
+				</p>
+				<p>
+					Notre proposition est de considérer que les chercheurs ont tout à
+					gagner en élargissant leur culture à celle du monde économique,
+					de sorte que cela influence leurs travaux de recherche pour
+					rapprocher le moment où leurs résultats seront en adéquation
+					avec les marchés et de la même manière, rassurer les entreprises
+					sur la manière dont ces acteurs de l’enseignement supérieur
+					contribuent à leur développement.
+				</p>
+				<p>
+					Pour ce faire, on doit pouvoir aller au-delà de cette contrainte
+					contractuelle pour établir un contrat mixte entre un établissement
+					d’enseignement et des acteurs privés ou territoriaux qui
+					pourrait instituer un retour de service vers la société civile.
 				</p>
 			</div>
 		</div>
@@ -214,34 +360,203 @@
 			<ul class="prop-links clearfix">
 				<li>
 					<div class="wrap" data-num="#1">
-						<a href="#">
+						<a href="#prop5">
 							Lutter contre les silos au lycée
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#4">
-						<a href="#">
+						<a href="#prop6">
 							Encourager les thèses pluri-disciplinaires
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#5">
-						<a href="#">
+						<a href="#prop7">
 							Former davantage à la créativité
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#8">
-						<a href="#" class="long">
+						<a href="#prop8" class="long">
 							Rapprocher les grandes écoles des universités
 							par la mise en commun du corps enseignant
 						</a>
 					</div>
 				</li>
 			</ul>
+		</div>
+	</section>
+	<section id="prop5-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop5" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Lutter contre les silos au lycée
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					Au lycée, la filière scientifique vampirise les autres. À gros
+					traits, les bons en mathématiques vont en S et les autres
+					s’éparpillent dans les autres filières. Il faut en terminer avec
+					ce diktat. La situation est tellement absurde que beaucoup
+					d’élèves sont envoyés en S par leurs parents alors qu’ils n’en
+					ont aucune envie.
+				</p>
+				<p>
+					Heureusement, de bonnes initiatives émergent avec l’ouverture
+					des concours des grandes écoles aux classes préparatoires
+					littéraires. Mais nous voulons aller plus loin.
+				</p>
+				<p>
+					Le lycée souffre d’une ségrégation physique des différentes
+					filières. Rappelons que la filière scientifique n’accueille
+					même pas la moitié des effectifs. Pourtant, elle apparaît
+					comme la voie à suivre pour tous les adolescents. Les filières
+					technologiques et professionnelles sont méprisées et sousestimées.
+					Cette fracture entre les différentes sections est en
+					partie due à leur éloignement géographique.
+				</p>
+				<p>
+					Après le collège, les jeunes ne côtoient plus que leurs semblables
+					en termes de niveau d’études. Chacun est orienté
+					dans un silo à l’issue de la terminale et plus personne ne se
+					mélange. Certaines filières sont dédaignées, d’autres valorisées
+					et ce jugement se reporte sur les personnes inscrites.
+					On fournit aux élèves une armada de préjugés dont il est
+					malheureusement très difficile de se départir.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="prop6-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop6" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Encourager les thèses pluri-disciplinaires
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					Nous proposons l’ouverture à la base, mais aussi au sommet
+					du cursus académique. À l’image des thèses en cotutelle
+					entre deux établissements de nationalité différente, nous
+					devons développer des thèses en cotutelle entre deux disciplines
+					distinctes.
+				</p>
+				<p>
+					Les champs de recherche à la croisée du management et
+					de l’ingénierie sont nombreux. Il faut les développer. Cela
+					donnera une réelle plus-value aux docteurs pour entrer dans
+					le monde du travail. Contrairement aux ingénieurs et aux
+					managers, ils auront une double culture – un bagage rare
+					et appréciable dans l’entreprise. Cet avantage se traduira
+					en une profitabilité économique utile à leurs territoires
+					respectifs.
+				</p>
+				<p>
+					Cette proposition permettra également de décloisonner
+					l’enseignement supérieur en faisant émerger une nouvelle
+					génération de maîtres de conférence et de professeurs
+					pluridisciplinaires.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="prop7-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop7" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Former davantage à la créativité
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					La créativité est un élément essentiel de la pédagogie qui a
+					souvent été perçue comme accessoire. Il faut lui redonner
+					ses lettres de noblesse. Loin d’être une option de sousimportance,
+					la formation à la créativité doit permettre,
+					dans des formations techniques ou verticales, d’impulser
+					une dose de transversalité pouvant servir l’innovation et
+					ouvrir à de nouveaux horizons. 
+				</p>
+				<p>
+					La libération du potentiel
+					créatif des élèves et des étudiants doit s’articuler autour
+					de nouveaux prismes de pensée qui vont au-delà de la
+					construction personnelle. 
+				</p>
+				<p>
+					Elle peut également servir la
+					société et le monde économique. Cette formation à la
+					créativité peut prendre différents aspects : cours intégrés,
+					séminaires de théâtre d’improvisation, de développement
+					personnel, intervention de professionnels dans le domaine
+					de la publicité, de la communication ou du design ; ou
+					encore aller plus loin en favorisant le rapprochement
+					entre des cursus design/communication, par exemple avec
+					des cursus plus traditionnels en ingénierie, en sciences
+					humaines et sociales, ou dans les filières technologiques
+					et professionnelles.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="prop8-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop8" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Rapprocher les grandes écoles des universités
+				par la mise en commun du corps enseignant
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					Les écoles de commerce ont des obligations strictes en
+					matière d’encadrement de leurs élèves par des docteurs. On
+					pourrait profiter de cela pour lancer des passerelles entre
+					universités et grandes écoles. 
+				</p>
+				<p>
+					Nous imaginons des docteurs
+					employés par l’université mais effectuant une partie de leurs
+					cours dans les écoles. Ce détachement contractuel ferait
+					l’objet d’une facturation par l’université. Ce système permettrait
+					d’avoir des hommes passerelles entre les universités
+					et les grandes écoles capables de dépasser les préjugés des
+					deux côtés. 
+				</p>
+				<p>
+					Pour les écoles, ce serait également l’occasion
+					d’avoir plus de souplesse quant à la gestion de leur personnel
+					encadrant et de faire profiter les étudiants de méthodes
+					pédagogiques plus variées et plus riches par l’apport mutuel
+					réalisé par des professeurs.
+				</p>
+			</div>
 		</div>
 	</section>
 	<section id="ouverture" class="slide valeur">
@@ -265,33 +580,220 @@
 			<ul class="prop-links clearfix">
 				<li>
 					<div class="wrap" data-num="#1">
-						<a href="#" class="long">
+						<a href="#prop9" class="long">
 							Considérer l'ouverture sociale comme un moteur et non comme une contrainte
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#3">
-						<a href="#" class="long">
-							Favoriser les liens avec les mileiux sociaux, économiques et culturels 
+						<a href="#prop10" class="long">
+							Favoriser les liens avec les mileiux sociaux, économiques et culturels
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#4">
-						<a href="#" class="long">
+						<a href="#prop11" class="long">
 							Réaliser des partenariats entre enseignement supérieur et enseignement secondaire
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#6">
-						<a href="#">
+						<a href="#prop12">
 							Développer un &laquo;Erasmus&raquo; des professeurs
 						</a>
 					</div>
 				</li>
 			</ul>
+		</div>
+	</section>
+	<section id="prop9-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop9" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Considérer l'ouverture sociale comme un moteur et non comme une contrainte
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					Les actions, en permettant une plus grande mixité sociale,
+					doivent être valorisées et formalisées. « Les Cordées de la
+					réussite » ou l’intégration des Écoles de la 2e Chance dans
+					les grandes écoles peuvent être généralisées. Développer
+					les actions communes de mixité sociale ne peut qu’être
+					positif pour la société. Toutes les parties prenantes sont
+					dynamisées quand elles sont confrontées à l’autre, à la différence.
+					L’émulation provoquée par ces rencontres stimule
+					la reconnaissance de la valeur de l’autre et la valorisation
+					de chacun.
+				</p>
+				<p>
+					Si des conflits existent de manière caricaturale dans la
+					société entre des corps professionnels ou des corps sociaux,
+					c’est que ces personnes ne se connaissent pas. Elles ne
+					se sont jamais côtoyées. C’est une erreur : pour intégrer
+					l’importance des autres, il faut faire l’expérience de leur
+					importance et ce, le plus tôt possible. L’ouverture sociale
+					est une richesse, préservons-la.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="prop10-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop10" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Favoriser les liens avec les mileiux sociaux, économiques et culturels
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					Les étudiants doivent s’immerger pendant leurs études
+					dans le tissu socio-économique local. Entreprises et établissements
+					d’enseignement supérieur peuvent et doivent
+					s’apporter des bénéfices mutuels. Ces liens existent parfois
+					de manière fragile à travers les junior entreprises, l’alternance
+					ou les stages. Il faut continuer dans cette direction
+					sans obligatoirement se limiter au milieu économique.
+				</p>
+				<p>
+					Pourquoi ne pas favoriser davantage les stages en milieu
+					non lucratif ? Nous allons demander à nos étudiants du
+					programme grande école d’effectuer un mois de stage
+					dans des structures comme des ONG ou des organismes
+					de service public. Cette démarche n’est pas nouvelle en
+					soi dans notre milieu, puisque l’ESC La Rochelle, via son
+					programme Humacité, a déjà mis en place ce type de stage,
+					mais il nécessite d’être clairement généralisé et étendu au
+					même titre que les stages en entreprise ou les cursus à
+					l’international. 
+				</p>
+				<p>
+					Le débouché des managers de demain ne
+					sera pas forcément dans une grande multinationale ou une
+					PME. Les ONG, les associations prennent de plus en plus
+					de place dans la société et dans l’économie, sans compter
+					l’apport personnel et professionnel pour les étudiants.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="prop11-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop11" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Réaliser des partenariats entre enseignement supérieur et enseignement secondaire
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					Les élèves, quel que soit leur niveau d’études, méconnaissent
+					bien souvent les possibilités qui s’offrent à eux dans le futur.
+					L’enseignement supérieur doit mieux se faire connaître
+					auprès des établissements de l’enseignement secondaire. Il
+					faut organiser des visites d’établissements afin de provoquer
+					des rencontres plus ou moins formelles.
+				</p>
+				<p>
+					Le but serait d’offrir à l’ensemble des jeunes une connaissance
+					personnelle des contenus et de l’environnement dans
+					lequel pourrait se dérouler leurs futures études. C’est un
+					engagement facile à prendre et une proposition abordable
+					financièrement. Ses bénéfices seraient loin d’être négligeables.
+					Une rencontre qui permettrait de s’attaquer enfin au
+					problème de l’orientation. Collégiens et lycéens sont dans
+					l’embarras quand vient le choix de l’orientation. Ils sont
+					dépendants de trop de points de vue extérieurs : les professeurs,
+					les conseillers d’orientation, les parents, les amis, etc.
+					Faute d’appréhender l’intégralité du problème, ils ne sont
+					pas maîtres de leur choix et une réelle démotivation s’ensuit
+					dans leurs études.
+				</p>
+				<p>
+					Cette initiative ouvrirait les horizons de ces adolescents. Ils
+					seraient en contact direct avec des filières dont ils n’auraient
+					peut-être jamais entendu parler sans cela, ou vaguement,
+					sur une feuille de papier résumant les si nombreuses voies
+					qui s’offrent à eux.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="prop12-image" class="slide image">
+		<div></div>
+	</section>
+	<section id="prop12" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Développer un &laquo;Erasmus&raquo; des professeurs
+			</h1>
+			<h2>
+				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+			</h2>
+			<hr />
+			<div class="content">
+				<p>
+					Erasmus est l’un des projets européens les plus cohérents et les
+					plus utiles. Il permet à des jeunes de vivre une année entière
+					immergés dans une autre culture et les retours ont toujours
+					tous été positifs. À tel point qu’il est passé dans le langage courant
+					pour désigner les échanges d’étudiants dans sa globalité
+					(alors qu’Erasmus se limite de facto à l’Union européenne).
+				</p>
+				<p>
+					Il existe déjà la possibilité de l’étendre aux professeurs. Toutefois,
+					nous pourrions imaginer de le développer sur une
+					durée plus longue (il est aujourd’hui limité à six semaines),
+					de le systématiser dans les carrières des enseignants, et surtout
+					d’étendre son application à des pays non membres de
+					l’Union européenne. L’idée serait que tous les enseignants
+					de l’Éducation nationale et du supérieur passent dans les
+					premières années de leur carrière un an à l’étranger. 
+				</p>
+				<p>
+					La manière d’enseigner varie largement d’un pays à l’autre.
+					Se confronter à un autre système d’enseignement serait
+					éminemment positif pour nos professeurs et instituteurs.
+					Tous les deux ans, la refonte de la formation des enseignants
+					et de notre système scolaire est en haut de l’agenda
+					politique et médiatique. Mais si cette refonte doit avoir lieu
+					un jour, elle se fera par la base. Elle devrait être effectuée
+					par les personnes qui côtoient tous les jours les élèves. Elle
+					se ferait parce que ce seraient les professeurs eux-mêmes
+					qui seraient convaincus de son bien-fondé, parce qu’ils
+					auraient confronté leurs méthodes à celles de leurs voisins.
+					Ils auraient su en garder le meilleur et prendraient plus
+					facilement conscience des dysfonctionnements actuels.
+				</p>
+				<p>
+					Arrêtons de toujours vouloir imposer par le haut. Notre
+					société souffre du manque de responsabilisation des acteurs
+					de terrain. Le but d’une hiérarchie n’est pas d’imposer à ses
+					subalternes un protocole précis de réactions en fonction
+					de toutes les situations possibles et imaginables. Son rôle
+					devrait plutôt être de mettre l’acteur de terrain dans de
+					bonnes conditions pour faire des choix éclairés. L’Erasmus
+					des professeurs serait cela : remettre les enseignants au coeur
+					de la pédagogie.
+				</p>
+			</div>
 		</div>
 	</section>
 	

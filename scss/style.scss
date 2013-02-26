@@ -40,7 +40,6 @@ li ol{
 }
 
 //rythme vertical
-//leading grand écran: 25.2
 p, 
 ul, 
 ol{
@@ -143,13 +142,13 @@ $active-menu-background: #efefef;
 		@include breakpoint(desktop){
 			&:before,
 			&:after{
-				display: block;
+				opacity: 1;
 			}
 		}
 		@include breakpoint(tablet){
 			&:before,
 			&:after{
-				display: block;
+				opacity: 1;
 			}
 		}
 	}
@@ -165,19 +164,21 @@ $active-menu-background: #efefef;
 
 	$fold-height: 10px;
 	$fold-width: 7px;
-	&:before{
+	&:before,
+	&:after{
+		@include transition();
 		content: "";
-		display: none;	
+		display: block;
+		opacity: 0;
 		position: absolute;
+	}
+	&:before{
 		bottom: -$fold-height;
 		left: 0;
 		right: 0;
 		border-top: $fold-height solid $active-menu-background;
 	}
 	&:after{
-		content: "";
-		display: none;
-		position: absolute;
 		bottom: -$fold-height;
 		right: -$fold-width;
 		border: 0 solid darken($active-menu-background, 10);
@@ -500,7 +501,19 @@ section.valeur{
 #prop1-image > div{
 	background-image: url('../img/entrepreneuretudiant.jpg');
 }
-#prop1{
+#prop2-image > div{
+	background-image: url('../img/statut.jpg');
+}
+#prop3-image > div{
+	background-image: url('../img/pasfait.jpg');
+}
+#prop4-image > div{
+	background-image: url('../img/labo-entreprises.jpg');
+}
+#prop1,
+#prop2,
+#prop3,
+#prop4{
 	background: $couleur-fond-entrepreneur;
 }
 
@@ -524,6 +537,24 @@ section.valeur{
 		content: "2";
 	}
 }
+#prop5,
+#prop6,
+#prop7,
+#prop8{
+	background: $couleur-fond-transversalite;
+}
+#prop5-image > div{
+	background-image: url('../img/pasfait.jpg');
+}
+#prop6-image > div{
+	background-image: url('../img/pasfait.jpg');
+}
+#prop7-image > div{
+	background-image: url('../img/creativite.jpg');
+}
+#prop8-image > div{
+	background-image: url('../img/enseignant.jpg');
+}
 
 #ouverture{
 	background: $couleur-fond-ouverture;
@@ -544,4 +575,22 @@ section.valeur{
 	&:after{
 		content: "3";
 	}
+}
+#prop9,
+#prop10,
+#prop11,
+#prop12{
+	background: $couleur-fond-ouverture;
+}
+#prop9-image > div{
+	background-image: url('../img/ouverture.jpg');
+}
+#prop10-image > div{
+	background-image: url('../img/pasfait.jpg');
+}
+#prop11-image > div{
+	background-image: url('../img/pasfait.jpg');
+}
+#prop12-image > div{
+	background-image: url('../img/pasfait.jpg');
 }
