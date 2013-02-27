@@ -635,7 +635,7 @@ h2 {
 
 /* line 31, ../scss/style.scss */
 strong, th {
-  font-wieght: 700;
+  font-weight: 700;
 }
 
 /* line 34, ../scss/style.scss */
@@ -1232,66 +1232,72 @@ section.valeur:after {
 #home a.download:hover, #home a.download:focus {
   background: #485b53;
 }
+@media (max-width: 767px) {
+  /* line 451, ../scss/style.scss */
+  #home a.download {
+    width: 90%;
+  }
+}
 
-/* line 469, ../scss/style.scss */
+/* line 473, ../scss/style.scss */
 #pourquoi {
   background: #252525;
 }
-/* line 472, ../scss/style.scss */
+/* line 476, ../scss/style.scss */
 #pourquoi h1 span {
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  /* line 472, ../scss/style.scss */
+  /* line 476, ../scss/style.scss */
   #pourquoi h1 span {
     display: block;
   }
 }
 
-/* line 480, ../scss/style.scss */
+/* line 484, ../scss/style.scss */
 #entrepreneur {
   background: #cb3521;
   position: relative;
   overflow: hidden;
 }
-/* line 485, ../scss/style.scss */
+/* line 489, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap {
   background: #8e2011;
 }
-/* line 487, ../scss/style.scss */
+/* line 491, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:hover {
   background: #771b0e;
 }
-/* line 491, ../scss/style.scss */
+/* line 495, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:after {
   color: #cb3521;
 }
-/* line 496, ../scss/style.scss */
+/* line 500, ../scss/style.scss */
 #entrepreneur:after {
   content: "1";
 }
 
-/* line 501, ../scss/style.scss */
+/* line 505, ../scss/style.scss */
 #prop1-image > div {
   background-image: url("../img/entrepreneuretudiant.jpg");
 }
 
-/* line 504, ../scss/style.scss */
+/* line 508, ../scss/style.scss */
 #prop2-image > div {
   background-image: url("../img/statut.jpg");
 }
 
-/* line 507, ../scss/style.scss */
+/* line 511, ../scss/style.scss */
 #prop3-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 510, ../scss/style.scss */
+/* line 514, ../scss/style.scss */
 #prop4-image > div {
   background-image: url("../img/labo-entreprises.jpg");
 }
 
-/* line 516, ../scss/style.scss */
+/* line 520, ../scss/style.scss */
 #prop1,
 #prop2,
 #prop3,
@@ -1299,30 +1305,30 @@ section.valeur:after {
   background: #cb3521;
 }
 
-/* line 520, ../scss/style.scss */
+/* line 524, ../scss/style.scss */
 #transversalite {
   background: #2145cb;
   position: relative;
   overflow: hidden;
 }
-/* line 525, ../scss/style.scss */
+/* line 529, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap {
   background: #1331a1;
 }
-/* line 527, ../scss/style.scss */
+/* line 531, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap:hover {
   background: #102a8a;
 }
-/* line 531, ../scss/style.scss */
+/* line 535, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap:after {
   color: #2145cb;
 }
-/* line 536, ../scss/style.scss */
+/* line 540, ../scss/style.scss */
 #transversalite:after {
   content: "2";
 }
 
-/* line 543, ../scss/style.scss */
+/* line 547, ../scss/style.scss */
 #prop5,
 #prop6,
 #prop7,
@@ -1330,50 +1336,50 @@ section.valeur:after {
   background: #2145cb;
 }
 
-/* line 546, ../scss/style.scss */
+/* line 550, ../scss/style.scss */
 #prop5-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 549, ../scss/style.scss */
+/* line 553, ../scss/style.scss */
 #prop6-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 552, ../scss/style.scss */
+/* line 556, ../scss/style.scss */
 #prop7-image > div {
   background-image: url("../img/creativite.jpg");
 }
 
-/* line 555, ../scss/style.scss */
+/* line 559, ../scss/style.scss */
 #prop8-image > div {
   background-image: url("../img/enseignant.jpg");
 }
 
-/* line 559, ../scss/style.scss */
+/* line 563, ../scss/style.scss */
 #ouverture {
   background: #ce2c9a;
   position: relative;
   overflow: hidden;
 }
-/* line 564, ../scss/style.scss */
+/* line 568, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap {
   background: #8b1164;
 }
-/* line 566, ../scss/style.scss */
+/* line 570, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap:hover {
   background: #740e54;
 }
-/* line 570, ../scss/style.scss */
+/* line 574, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap:after {
   color: #ce2c9a;
 }
-/* line 575, ../scss/style.scss */
+/* line 579, ../scss/style.scss */
 #ouverture:after {
   content: "3";
 }
 
-/* line 582, ../scss/style.scss */
+/* line 586, ../scss/style.scss */
 #prop9,
 #prop10,
 #prop11,
@@ -1381,22 +1387,22 @@ section.valeur:after {
   background: #ce2c9a;
 }
 
-/* line 585, ../scss/style.scss */
+/* line 589, ../scss/style.scss */
 #prop9-image > div {
   background-image: url("../img/ouverture.jpg");
 }
 
-/* line 588, ../scss/style.scss */
+/* line 592, ../scss/style.scss */
 #prop10-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 591, ../scss/style.scss */
+/* line 595, ../scss/style.scss */
 #prop11-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 594, ../scss/style.scss */
+/* line 598, ../scss/style.scss */
 #prop12-image > div {
   background-image: url("../img/pasfait.jpg");
 }

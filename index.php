@@ -185,16 +185,16 @@
 				<p>
 					Le gouvernement a, depuis longtemps, favorisé l’émergence
 					de sportifs de haut niveau en travaillant avec les fédérations
-					autour de la filière sport-études. Nous souhaitons diffuser
-					ce genre d’initiative avec un parcours entrepreneur-études
+					autour de la filière sport-études. <strong>Nous souhaitons diffuser
+					ce genre d’initiative avec un parcours entrepreneur-études</strong>
 					pour des jeunes présentant des potentialités pour l’entrepreneuriat.
 					Sur le principe du volontariat, dès le secondaire,
-					des élèves auraient une demi-journée par semaine pour
-					travailler sur leur projet.
+					des élèves auraient <strong>une demi-journée par semaine pour
+					travailler sur leur projet</strong>.
 				</p>
 				<p>
-					Il faut faire émerger une nouvelle génération ambitieuse
-					et innovante de dirigeants d’entreprise. Les élèves doivent
+					Il faut faire émerger une <strong>nouvelle génération ambitieuse
+					et innovante</strong> de dirigeants d’entreprise. Les élèves doivent
 					pouvoir être confrontés jeunes au fait de diriger une entreprise
 					afin de dédiaboliser ce métier. Les patrons ont parfois
 					mauvaise réputation et être dirigeant n’est pas toujours
@@ -226,17 +226,17 @@
 					membres des structures d’accompagnement et des grandes
 					écoles, sélectionnerait des candidats qui suivraient un cursus
 					spécifique. Cette sélection porterait d’ailleurs moins sur
-					des critères académiques que sur la capacité des étudiants à
-					porter un projet de création d’activités nouvelles.
+					des critères académiques que sur <strong>la capacité des étudiants à
+					porter un projet</strong> de création d’activités nouvelles.
 				</p>
 				<p>
-					Les candidats sélectionnés devraient avoir accès à un statut
-					spécifique d’étudiant entrepreneur. Lorsqu’un étudiant de
+					Les candidats sélectionnés devraient avoir accès à <strong>un statut
+					spécifique d’étudiant entrepreneur</strong>. Lorsqu’un étudiant de
 					fin de cursus souhaite créer son entreprise, les écoles et
 					établissements d’enseignement supérieur qui sont organisés
 					autour d’une dynamique entrepreneuriale lui laissent
-					généralement la possibilité de transformer son stage de fin
-					d’études en parcours personnalisé au sein d’un incubateur
+					généralement la possibilité de <strong>transformer son stage de fin
+					d’études en parcours personnalisé</strong> au sein d’un incubateur
 					étudiant.
 				</p>
 				<p>
@@ -248,7 +248,7 @@
 					au cas par cas, à leur niveau, ce qui contribue à la marginalisation
 					de l’entrepreneuriat. La création d’un statut
 					spécifique plus protecteur pour les étudiants entrepreneurs
-					permettrait d’inciter à la création d’entreprise et donnerait
+					permettrait d’<strong>inciter à la création d’entreprise</strong> et donnerait
 					à l’entrepreneuriat un cadre réglementaire prédéfini.
 				</p>
 			</div>

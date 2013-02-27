@@ -29,7 +29,7 @@ h2{
 	@include font-size(25);
 }
 strong,th {
-	font-wieght: 700;
+	font-weight: 700;
 }
 a,a:active,a:visited{
 	color: inherit;
@@ -463,6 +463,10 @@ section.valeur{
 		&:hover,
 		&:focus{
 			background: lighten($couleur-texte-corporate, 4);
+		}
+		
+		@include breakpoint(mobile){
+			width: 90%;
 		}
 	}
 }
