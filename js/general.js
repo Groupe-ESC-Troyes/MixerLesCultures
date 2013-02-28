@@ -10,6 +10,10 @@ $(function(){
 		event.stropPropagation();
 		return false;
 	});
+	$menu.find('a').click(function(){
+		$menulink.toggleClass('active');
+		$menu.toggleClass('active');
+	});
 	
 	$.localScroll({hash: true});
 	$('body').scrollspy({target: '#menu', offset: 100});
