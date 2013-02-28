@@ -162,6 +162,11 @@ $active-menu-background: #efefef;
 	padding: 10px 0;
 	@include transition();
 
+	@include breakpoint(mobile){
+		text-align: left;
+		padding-left: 25px;
+	}
+
 	$fold-height: 10px;
 	$fold-width: 7px;
 	&:before,
