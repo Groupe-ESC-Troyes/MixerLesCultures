@@ -46,6 +46,21 @@ $media-smartphone: 320px;
 	}
 }
 
+@mixin dropcap($float: left, $font-size: 4em, $font-weight: inherit, $font-family: inherit, $text-indent: 0, $margin: inherit, $padding: inherit, $color: inherit, $lineHeight: 1, $bg: transparent) {
+	&:first-letter {
+		float: $float;
+		margin: $margin;
+		padding: $padding;
+		font-size: $font-size;
+		font-weight: $font-weight;
+		font-family: $font-family;
+		line-height: $lineHeight;
+		text-indent: $text-indent;
+		background: $bg;
+		color: $color;
+	}
+}
+
 //clearfix
 .clearfix:before,
 .clearfix:after{

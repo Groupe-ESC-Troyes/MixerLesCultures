@@ -182,7 +182,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Le gouvernement a, depuis longtemps, favorisé l’émergence
 					de sportifs de haut niveau en travaillant avec les fédérations
 					autour de la filière sport-études. <strong>Nous souhaitons diffuser
@@ -216,7 +216,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Ce statut permettrait d’accompagner et de protéger davantage
 					le potentiel des jeunes entrepreneurs tant en matière de
 					développement d’activités nouvelles que de capitalisation
@@ -267,7 +267,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					En matière de recherche, les jeunes et petites institutions servent
 					souvent de centre de formation des jeunes chercheurs. Lesquels,
 					une fois reconnus, partent pour des établissements très prestigieux
@@ -303,7 +303,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Le monde académique et le monde de l’entreprise s’ignorent
 					depuis trop longtemps. Il devient même difficile de parler de
 					dialogue entre ces deux univers sans être accusé de vouloir
@@ -316,6 +316,7 @@
 					un dialogue pour apprendre à se connaître et faire émerger
 					de nouvelles idées.
 				</p>
+				<p>
 					Légalement, nous n’avons d’autre choix que de dédier le contrat
 					de travail d’un enseignant-chercheur de manière exclusive à
 					une structure, à l’intérieur de laquelle, il développe sa recherche
@@ -340,6 +341,23 @@
 					pourrait instituer un retour de service vers la société civile.
 				</p>
 			</div>
+		</div>
+	</section>
+	<section id="plus-entrepreneuriat" class="slide plus">
+		<div class="slide-inner">
+			<h1>
+				&hellip;
+			</h1>
+			<h2>
+				Découvrir les <span>13</span> propositions en matière d'entrepreneuriat
+			</h2>
+			
+			<a href="#" class="download">
+				<img src="img/livre_entrepreneuriat.jpg" />
+				<div>
+					Télécharger la partie Entrepreneuriat
+				</div>
+			</a>
 		</div>
 	</section>
 	<section id="transversalite" class="slide valeur">
@@ -403,7 +421,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Au lycée, la filière scientifique vampirise les autres. À gros
 					traits, les bons en mathématiques vont en S et les autres
 					s’éparpillent dans les autres filières. Il faut en terminer avec
@@ -450,7 +468,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Nous proposons l’ouverture à la base, mais aussi au sommet
 					du cursus académique. À l’image des thèses en cotutelle
 					entre deux établissements de nationalité différente, nous
@@ -489,7 +507,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					La créativité est un élément essentiel de la pédagogie qui a
 					souvent été perçue comme accessoire. Il faut lui redonner
 					ses lettres de noblesse. Loin d’être une option de sousimportance,
@@ -534,7 +552,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Les écoles de commerce ont des obligations strictes en
 					matière d’encadrement de leurs élèves par des docteurs. On
 					pourrait profiter de cela pour lancer des passerelles entre
@@ -622,7 +640,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Les actions, en permettant une plus grande mixité sociale,
 					doivent être valorisées et formalisées. « Les Cordées de la
 					réussite » ou l’intégration des Écoles de la 2e Chance dans
@@ -659,7 +677,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Les étudiants doivent s’immerger pendant leurs études
 					dans le tissu socio-économique local. Entreprises et établissements
 					d’enseignement supérieur peuvent et doivent
@@ -703,7 +721,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Les élèves, quel que soit leur niveau d’études, méconnaissent
 					bien souvent les possibilités qui s’offrent à eux dans le futur.
 					L’enseignement supérieur doit mieux se faire connaître
@@ -749,7 +767,7 @@
 			</h2>
 			<hr />
 			<div class="content">
-				<p>
+				<p class="dropcap">
 					Erasmus est l’un des projets européens les plus cohérents et les
 					plus utiles. Il permet à des jeunes de vivre une année entière
 					immergés dans une autre culture et les retours ont toujours

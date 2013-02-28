@@ -227,6 +227,10 @@ div.ribbon-wrapper{
 	text-align: center;
 }
 
+.dropcap {
+	@include dropcap($font-family: $heading-font-family, $font-size: 8rem, $font-weight: 700, $margin: 0 auto, $padding: .3em .3em 0 .2em);
+}
+
 //commun a pluseirus slides
 section.slide{
 	width: 100%;
@@ -411,6 +415,46 @@ section.valeur{
 		}
 	}
 }
+section.plus{
+	h1{
+		text-align: center;
+		@include font-size(70);
+	}
+	h2{
+		text-align: center;
+	}
+	
+	a.download{
+		display: block;
+		position: relative;
+		background: #ccc;
+		width: 200px;
+		margin: 40px auto;
+		
+		&:hover div{
+			background: lighten(#252525, 4);
+		}
+		&:hover img{
+			opacity: 1;
+		}
+	}
+	a.download img{
+		@include box-shadow();
+		opacity: .8;
+		@include transition();
+	}
+	a.download div{
+		@include ribbon();
+		position: absolute;
+		top: 20%;
+		width: 150%;
+		left: -25%;
+		padding: 15px 0;
+		background: #252525;
+		text-align: center;
+		@include transition();
+	}
+}
 
 //slides individuelles
 #home{
@@ -517,7 +561,8 @@ section.valeur{
 #prop1,
 #prop2,
 #prop3,
-#prop4{
+#prop4,
+#plus-entrepreneuriat{
 	background: $couleur-fond-entrepreneur;
 }
 
