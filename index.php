@@ -814,6 +814,31 @@
 			</div>
 		</div>
 	</section>
+	<section id="debat" class="slide">
+		<div class="slide-inner">
+			<h1>
+				Poursuivre le débat
+			</h1>
+			
+			<img src="img/debat.png" alt="Bulles de dialogue" />
+			
+			<h2>
+				Rendez-vous ici-même à partir du 29 février pour prolonger le débat autour du livre
+			</h2>
+			
+			<form id="form" method="post">
+				<p>
+					Nous pouvons aussi vous prévenir par mail lorsque la plateforme de débat sera ouverte
+				</p>
+				<input type="email" name="email" placeholder="Votre adresse email" />
+				<input type="submit" value="Envoyer" />
+			</form>
+			
+			<small>
+				<a href="http://thenounproject.com/noun/chat/#icon-No2780" target="_blank">Chat</a> designed by <a href="http://thenounproject.com/somerandomdude" target="_blank">P.J. Onori</a> from The Noun Project
+			</small>
+		</div>
+	</section>
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.9.1.min.js"><\/script>')</script>

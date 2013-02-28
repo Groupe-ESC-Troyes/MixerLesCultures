@@ -643,3 +643,49 @@ section.plus{
 #prop12-image > div{
 	background-image: url('../img/pasfait.jpg');
 }
+
+#debat{
+	background: #276440;
+
+	h1{
+		text-align: center;
+	}
+	h2{
+		text-align: center;
+		line-height: 1.5em;
+	}
+	img{
+		display: block;
+		margin: 50px auto;
+		width: 300px;
+	}
+}
+
+//formulaire
+#form{
+	text-align: center;
+	margin: 30px 0 40px;
+}
+#form p{
+	margin-bottom: 20px;
+}
+#form input[type="email"]{
+	color: #333;
+	padding: 4px 8px;
+	border: none;
+	width: 250px;
+
+	&:focus{
+		@include single-box-shadow(#2965c7, 0, 0, 5px, 2px, inset);
+	}
+}
+#form input[type="submit"]{
+	$orange: #e07d12;
+	border: none;
+	@include background-image(linear-gradient(top, lighten($orange, 5), $orange));
+	padding: 5px 15px;
+
+	&:hover{
+		@include background-image(linear-gradient(top, lighten($orange, 10), lighten($orange, 5)));
+	}
+}

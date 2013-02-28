@@ -1504,3 +1504,67 @@ section.plus a.download div:after {
 #prop12-image > div {
   background-image: url("../img/pasfait.jpg");
 }
+
+/* line 647, ../scss/style.scss */
+#debat {
+  background: #276440;
+}
+/* line 650, ../scss/style.scss */
+#debat h1 {
+  text-align: center;
+}
+/* line 653, ../scss/style.scss */
+#debat h2 {
+  text-align: center;
+  line-height: 1.5em;
+}
+/* line 657, ../scss/style.scss */
+#debat img {
+  display: block;
+  margin: 50px auto;
+  width: 300px;
+}
+
+/* line 665, ../scss/style.scss */
+#form {
+  text-align: center;
+  margin: 30px 0 40px;
+}
+
+/* line 669, ../scss/style.scss */
+#form p {
+  margin-bottom: 20px;
+}
+
+/* line 672, ../scss/style.scss */
+#form input[type="email"] {
+  color: #333;
+  padding: 4px 8px;
+  border: none;
+  width: 250px;
+}
+/* line 678, ../scss/style.scss */
+#form input[type="email"]:focus {
+  -webkit-box-shadow: inset 0 0 5px 2px #2965c7;
+  -moz-box-shadow: inset 0 0 5px 2px #2965c7;
+  box-shadow: inset 0 0 5px 2px #2965c7;
+}
+
+/* line 682, ../scss/style.scss */
+#form input[type="submit"] {
+  border: none;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed8a1f), color-stop(100%, #e07d12));
+  background-image: -webkit-linear-gradient(top, #ed8a1f, #e07d12);
+  background-image: -moz-linear-gradient(top, #ed8a1f, #e07d12);
+  background-image: -o-linear-gradient(top, #ed8a1f, #e07d12);
+  background-image: linear-gradient(top, #ed8a1f, #e07d12);
+  padding: 5px 15px;
+}
+/* line 688, ../scss/style.scss */
+#form input[type="submit"]:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ef9636), color-stop(100%, #ed8a1f));
+  background-image: -webkit-linear-gradient(top, #ef9636, #ed8a1f);
+  background-image: -moz-linear-gradient(top, #ef9636, #ed8a1f);
+  background-image: -o-linear-gradient(top, #ef9636, #ed8a1f);
+  background-image: linear-gradient(top, #ef9636, #ed8a1f);
+}
