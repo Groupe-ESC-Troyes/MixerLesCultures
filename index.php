@@ -152,6 +152,7 @@
 						</a>
 					</div>
 				</li>
+				<!-- 
 				<li>
 					<div class="wrap" data-num="#9">
 						<a href="#prop3">
@@ -159,10 +160,18 @@
 						</a>
 					</div>
 				</li>
+				 -->
 				<li>
 					<div class="wrap" data-num="#11">
 						<a href="#prop4">
 							Faciliter les contrats mixtes laboratoire-entreprise
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="wrap">
+						<a href="#prop4">
+							moar
 						</a>
 					</div>
 				</li>
@@ -254,6 +263,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- 
 	<section id="prop3-image" class="slide image">
 		<div></div>
 	</section>
@@ -290,6 +300,7 @@
 			</div>
 		</div>
 	</section>
+	 -->
 	<section id="prop4-image" class="slide image">
 		<div></div>
 	</section>
