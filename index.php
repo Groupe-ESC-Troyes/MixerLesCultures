@@ -206,7 +206,7 @@
 	<section id="prop1" class="slide">
 		<div class="slide-inner">
 			<h1>
-				Développer une filière entrepreneur-études
+				#3 // Développer une filière entrepreneur-études
 			</h1>
 			<h2>
 				Une demi-journée par semaine pour sensibiliser les élèves du secondaire à la fibre entrepreneuriale
@@ -240,7 +240,7 @@
 	<section id="prop2" class="slide">
 		<div class="slide-inner">
 			<h1>
-				Créer un statut entrepreneur-étudiant
+				#4 // Créer un statut entrepreneur-étudiant
 			</h1>
 			<h2>
 				Pour accompagner et protéger les étudiants futurs créateurs d'entreprises grâce a un statut dédié
@@ -291,7 +291,7 @@
 	<section id="prop3" class="slide">
 		<div class="slide-inner">
 			<h1>
-				Créer un label &laquo;Pépinière de jeunes chercheurs&raquo;
+				#9 // Créer un label &laquo;Pépinière de jeunes chercheurs&raquo;
 			</h1>
 			<h2>
 				Libéraliser et assouplir les clauses contractuelles des enseignants chercheurs pour créer de la valeur
@@ -391,7 +391,7 @@
 	<section id="prop5" class="slide">
 		<div class="slide-inner">
 			<h1>
-				Lutter contre les silos au lycée
+				#1 // Lutter contre les silos au lycée
 			</h1>
 			<h2>
 				Décloisonner davantage les apprentissages au lycée pour favoriser les échanges et la mixité sociale
@@ -438,7 +438,7 @@
 	<section id="prop6" class="slide">
 		<div class="slide-inner">
 			<h1>
-				Encourager les thèses pluri-disciplinaires
+				#4 // Encourager les thèses pluri-disciplinaires
 			</h1>
 			<h2>
 				Développer les bi-compétences des doctorants pendant le cursus de thèse
@@ -477,7 +477,7 @@
 	<section id="prop7" class="slide">
 		<div class="slide-inner">
 			<h1>
-				Former davantage à la créativité
+				#5 // Former davantage à la créativité
 			</h1>
 			<h2>
 				Valoriser l'inventivité et l'ouverture personnelle des élèves et étudiants pour davantage de créativité
@@ -571,7 +571,7 @@
 	<section id="prop9" class="slide">
 		<div class="slide-inner">
 			<h1>
-				Considérer l'ouverture sociale comme un moteur et non comme une contrainte
+				#1 // Considérer l'ouverture sociale comme un moteur et non comme une contrainte
 			</h1>
 			<h2>
 				Intégrer des initiatives sociales et rapprochements avec les associations et structures d'appuis au cœur de la pédagogie
@@ -608,7 +608,7 @@
 	<section id="prop10" class="slide">
 		<div class="slide-inner">
 			<h1>
-				Favoriser les liens avec les mileiux sociaux, économiques et culturels
+				#3 // Favoriser les liens avec les mileiux sociaux, économiques et culturels
 			</h1>
 			<h2>
 				Faire sauter les barrières entre ces deux mondes pour mieux accompagner et faire réussir les élèves
@@ -652,7 +652,7 @@
 	<section id="prop12" class="slide">
 		<div class="slide-inner">
 			<h1>
-				Développer un &laquo;Erasmus&raquo; des professeurs
+				#6 // Développer un &laquo;Erasmus&raquo; des professeurs
 			</h1>
 			<h2>
 				Internationaliser et découvrir de nouvelles cultures à tous les niveaux de la formation des enseignants
@@ -715,12 +715,12 @@
 			<img src="img/debat.png" alt="Bulles de dialogue" />
 			
 			<h2>
-				Rendez-vous ici-même à partir du 29 février pour prolonger le débat autour du livre
+				Rendez-vous ici-même à partir du 20 mars pour prolonger le débat autour du livre
 			</h2>
 			
 			<form id="form" method="post">
 				<p>
-					Nous pouvons aussi vous prévenir par mail lorsque la plateforme de débat sera ouverte
+					Nous pouvons aussi vous prévenir par mail lorsque notre plateforme de débat sera ouverte
 				</p>
 				<input type="email" name="email" placeholder="Votre adresse email" />
 				<input type="submit" value="Envoyer" />
