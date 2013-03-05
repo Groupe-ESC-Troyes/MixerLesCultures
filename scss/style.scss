@@ -233,7 +233,7 @@ div.ribbon-wrapper{
 }
 
 .dropcap {
-	@include dropcap($font-family: $heading-font-family, $font-size: 8rem, $font-weight: 700, $margin: 0 auto, $padding: .3em .3em 0 .2em);
+	@include dropcap($font-family: $heading-font-family, $font-size: 8rem, $font-weight: 700, $margin: 0 auto, $padding: 10px 15px 0 10px);
 }
 
 //commun a pluseirus slides
@@ -370,6 +370,12 @@ section.valeur{
 		}
 		&:hover:after{
 			right: 5px;
+		}
+	}
+	ul.prop-links div.wrap.plus{
+		&:after{
+			bottom: -25px;
+			@include font-size(150);
 		}
 	}
 	ul.prop-links a{

@@ -865,7 +865,7 @@ div.ribbon-wrapper {
 .dropcap:first-letter {
   float: left;
   margin: 0 auto;
-  padding: 0.3em 0.3em 0 0.2em;
+  padding: 10px 15px 0 10px;
   font-size: 8rem;
   font-weight: 700;
   font-family: "Josefin Slab", Trebuchet, Helvetica, Arial;
@@ -1088,7 +1088,13 @@ section.valeur ul.prop-links div.wrap:after {
 section.valeur ul.prop-links div.wrap:hover:after {
   right: 5px;
 }
-/* line 375, ../scss/style.scss */
+/* line 376, ../scss/style.scss */
+section.valeur ul.prop-links div.wrap.plus:after {
+  bottom: -25px;
+  font-size: 150px;
+  font-size: 15rem;
+}
+/* line 381, ../scss/style.scss */
 section.valeur ul.prop-links a {
   position: relative;
   display: table-cell;
@@ -1105,20 +1111,20 @@ section.valeur ul.prop-links a {
   line-height: 1.3em;
   z-index: 10;
 }
-/* line 390, ../scss/style.scss */
+/* line 396, ../scss/style.scss */
 section.valeur ul.prop-links a.long {
   font-size: 18px;
   font-size: 1.8rem;
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 375, ../scss/style.scss */
+  /* line 381, ../scss/style.scss */
   section.valeur ul.prop-links a {
     font-size: 20px;
     font-size: 2rem;
     line-height: 1.2em;
   }
 }
-/* line 401, ../scss/style.scss */
+/* line 407, ../scss/style.scss */
 section.valeur:after {
   color: rgba(255, 255, 255, 0.4);
   position: absolute;
@@ -1127,7 +1133,7 @@ section.valeur:after {
   z--index: -1;
 }
 @media only screen and (min-width: 960px) {
-  /* line 401, ../scss/style.scss */
+  /* line 407, ../scss/style.scss */
   section.valeur:after {
     font-size: 600px;
     font-size: 60rem;
@@ -1136,7 +1142,7 @@ section.valeur:after {
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
-  /* line 401, ../scss/style.scss */
+  /* line 407, ../scss/style.scss */
   section.valeur:after {
     font-size: 400px;
     font-size: 40rem;
@@ -1145,38 +1151,38 @@ section.valeur:after {
   }
 }
 @media (max-width: 767px) {
-  /* line 401, ../scss/style.scss */
+  /* line 407, ../scss/style.scss */
   section.valeur:after {
     display: none;
   }
 }
 
-/* line 424, ../scss/style.scss */
+/* line 430, ../scss/style.scss */
 section.plus h1 {
   text-align: center;
   font-size: 70px;
   font-size: 7rem;
 }
-/* line 428, ../scss/style.scss */
+/* line 434, ../scss/style.scss */
 section.plus h2 {
   text-align: center;
 }
-/* line 432, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 section.plus a.download {
   display: block;
   position: relative;
   width: 200px;
   margin: 40px auto;
 }
-/* line 438, ../scss/style.scss */
+/* line 444, ../scss/style.scss */
 section.plus a.download:hover div {
   background: #485b53;
 }
-/* line 441, ../scss/style.scss */
+/* line 447, ../scss/style.scss */
 section.plus a.download:hover img {
   opacity: 1;
 }
-/* line 445, ../scss/style.scss */
+/* line 451, ../scss/style.scss */
 section.plus a.download img {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
@@ -1187,7 +1193,7 @@ section.plus a.download img {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-/* line 450, ../scss/style.scss */
+/* line 456, ../scss/style.scss */
 section.plus a.download div {
   position: relative;
   background: #3f5049;
@@ -1233,7 +1239,7 @@ section.plus a.download div:after {
   border-left-width: 50px;
 }
 
-/* line 464, ../scss/style.scss */
+/* line 470, ../scss/style.scss */
 #home {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1245,31 +1251,31 @@ section.plus a.download div:after {
   background-image: url("../img/home.jpg");
   color: #3f5049;
 }
-/* line 472, ../scss/style.scss */
+/* line 478, ../scss/style.scss */
 #home h1 {
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
-  /* line 472, ../scss/style.scss */
+  /* line 478, ../scss/style.scss */
   #home h1 {
     font-size: 25px;
     font-size: 2.5rem;
   }
 }
-/* line 479, ../scss/style.scss */
+/* line 485, ../scss/style.scss */
 #home h2 {
   font-weight: 400;
   margin-bottom: 50px;
 }
 @media (max-width: 767px) {
-  /* line 479, ../scss/style.scss */
+  /* line 485, ../scss/style.scss */
   #home h2 {
     font-size: 20px;
     font-size: 2rem;
     margin-bottom: 30px;
   }
 }
-/* line 488, ../scss/style.scss */
+/* line 494, ../scss/style.scss */
 #home strong {
   display: block;
   margin: auto;
@@ -1278,13 +1284,13 @@ section.plus a.download div:after {
   font-size: 2.2rem;
 }
 @media (max-width: 767px) {
-  /* line 488, ../scss/style.scss */
+  /* line 494, ../scss/style.scss */
   #home strong {
     font-size: 18px;
     font-size: 1.8rem;
   }
 }
-/* line 499, ../scss/style.scss */
+/* line 505, ../scss/style.scss */
 #home a.download {
   display: block;
   text-align: center;
@@ -1331,76 +1337,76 @@ section.plus a.download div:after {
   border-right-width: 0;
   border-left-width: 50px;
 }
-/* line 512, ../scss/style.scss */
+/* line 518, ../scss/style.scss */
 #home a.download:hover, #home a.download:focus {
   background: #485b53;
 }
 @media (max-width: 767px) {
-  /* line 499, ../scss/style.scss */
+  /* line 505, ../scss/style.scss */
   #home a.download {
     width: 90%;
   }
 }
 
-/* line 521, ../scss/style.scss */
+/* line 527, ../scss/style.scss */
 #pourquoi {
   background: #252525;
 }
-/* line 524, ../scss/style.scss */
+/* line 530, ../scss/style.scss */
 #pourquoi h1 span {
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  /* line 524, ../scss/style.scss */
+  /* line 530, ../scss/style.scss */
   #pourquoi h1 span {
     display: block;
   }
 }
 
-/* line 532, ../scss/style.scss */
+/* line 538, ../scss/style.scss */
 #entrepreneur {
   background: #cb3521;
   position: relative;
   overflow: hidden;
 }
-/* line 537, ../scss/style.scss */
+/* line 543, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap {
   background: #8e2011;
 }
-/* line 539, ../scss/style.scss */
+/* line 545, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:hover {
   background: #771b0e;
 }
-/* line 543, ../scss/style.scss */
+/* line 549, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:after {
   color: #cb3521;
 }
-/* line 548, ../scss/style.scss */
+/* line 554, ../scss/style.scss */
 #entrepreneur:after {
   content: "1";
 }
 
-/* line 553, ../scss/style.scss */
+/* line 559, ../scss/style.scss */
 #prop1-image > div {
   background-image: url("../img/entrepreneuretudiant.jpg");
 }
 
-/* line 556, ../scss/style.scss */
+/* line 562, ../scss/style.scss */
 #prop2-image > div {
   background-image: url("../img/statut.jpg");
 }
 
-/* line 559, ../scss/style.scss */
+/* line 565, ../scss/style.scss */
 #prop3-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 562, ../scss/style.scss */
+/* line 568, ../scss/style.scss */
 #prop4-image > div {
   background-image: url("../img/labo-entreprises.jpg");
 }
 
-/* line 568, ../scss/style.scss */
+/* line 574, ../scss/style.scss */
 #prop1,
 #prop2,
 #prop3,
@@ -1408,35 +1414,35 @@ section.plus a.download div:after {
   background: #cb3521;
 }
 
-/* line 571, ../scss/style.scss */
+/* line 577, ../scss/style.scss */
 #plus-entrepreneuriat {
   background: #252525;
 }
 
-/* line 575, ../scss/style.scss */
+/* line 581, ../scss/style.scss */
 #transversalite {
   background: #2145cb;
   position: relative;
   overflow: hidden;
 }
-/* line 580, ../scss/style.scss */
+/* line 586, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap {
   background: #1331a1;
 }
-/* line 582, ../scss/style.scss */
+/* line 588, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap:hover {
   background: #102a8a;
 }
-/* line 586, ../scss/style.scss */
+/* line 592, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap:after {
   color: #2145cb;
 }
-/* line 591, ../scss/style.scss */
+/* line 597, ../scss/style.scss */
 #transversalite:after {
   content: "2";
 }
 
-/* line 598, ../scss/style.scss */
+/* line 604, ../scss/style.scss */
 #prop5,
 #prop6,
 #prop7,
@@ -1444,50 +1450,50 @@ section.plus a.download div:after {
   background: #2145cb;
 }
 
-/* line 601, ../scss/style.scss */
+/* line 607, ../scss/style.scss */
 #prop5-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 604, ../scss/style.scss */
+/* line 610, ../scss/style.scss */
 #prop6-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 607, ../scss/style.scss */
+/* line 613, ../scss/style.scss */
 #prop7-image > div {
   background-image: url("../img/creativite.jpg");
 }
 
-/* line 610, ../scss/style.scss */
+/* line 616, ../scss/style.scss */
 #prop8-image > div {
   background-image: url("../img/enseignant.jpg");
 }
 
-/* line 614, ../scss/style.scss */
+/* line 620, ../scss/style.scss */
 #ouverture {
   background: #ce2c9a;
   position: relative;
   overflow: hidden;
 }
-/* line 619, ../scss/style.scss */
+/* line 625, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap {
   background: #8b1164;
 }
-/* line 621, ../scss/style.scss */
+/* line 627, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap:hover {
   background: #740e54;
 }
-/* line 625, ../scss/style.scss */
+/* line 631, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap:after {
   color: #ce2c9a;
 }
-/* line 630, ../scss/style.scss */
+/* line 636, ../scss/style.scss */
 #ouverture:after {
   content: "3";
 }
 
-/* line 637, ../scss/style.scss */
+/* line 643, ../scss/style.scss */
 #prop9,
 #prop10,
 #prop11,
@@ -1495,72 +1501,72 @@ section.plus a.download div:after {
   background: #ce2c9a;
 }
 
-/* line 640, ../scss/style.scss */
+/* line 646, ../scss/style.scss */
 #prop9-image > div {
   background-image: url("../img/ouverture.jpg");
 }
 
-/* line 643, ../scss/style.scss */
+/* line 649, ../scss/style.scss */
 #prop10-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 646, ../scss/style.scss */
+/* line 652, ../scss/style.scss */
 #prop11-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 649, ../scss/style.scss */
+/* line 655, ../scss/style.scss */
 #prop12-image > div {
   background-image: url("../img/pasfait.jpg");
 }
 
-/* line 653, ../scss/style.scss */
+/* line 659, ../scss/style.scss */
 #debat {
   background: #276440;
 }
-/* line 656, ../scss/style.scss */
+/* line 662, ../scss/style.scss */
 #debat h1 {
   text-align: center;
 }
-/* line 659, ../scss/style.scss */
+/* line 665, ../scss/style.scss */
 #debat h2 {
   text-align: center;
   line-height: 1.5em;
 }
-/* line 663, ../scss/style.scss */
+/* line 669, ../scss/style.scss */
 #debat img {
   display: block;
   margin: 50px auto;
   width: 300px;
 }
 
-/* line 671, ../scss/style.scss */
+/* line 677, ../scss/style.scss */
 #form {
   text-align: center;
   margin: 30px 0 40px;
 }
 
-/* line 675, ../scss/style.scss */
+/* line 681, ../scss/style.scss */
 #form p {
   margin-bottom: 20px;
 }
 
-/* line 678, ../scss/style.scss */
+/* line 684, ../scss/style.scss */
 #form input[type="email"] {
   color: #333;
   padding: 4px 8px;
   border: none;
   width: 250px;
 }
-/* line 684, ../scss/style.scss */
+/* line 690, ../scss/style.scss */
 #form input[type="email"]:focus {
   -webkit-box-shadow: inset 0 0 5px 2px #2965c7;
   -moz-box-shadow: inset 0 0 5px 2px #2965c7;
   box-shadow: inset 0 0 5px 2px #2965c7;
 }
 
-/* line 688, ../scss/style.scss */
+/* line 694, ../scss/style.scss */
 #form input[type="submit"] {
   border: none;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed8a1f), color-stop(100%, #e07d12));
@@ -1570,7 +1576,7 @@ section.plus a.download div:after {
   background-image: linear-gradient(top, #ed8a1f, #e07d12);
   padding: 5px 15px;
 }
-/* line 694, ../scss/style.scss */
+/* line 700, ../scss/style.scss */
 #form input[type="submit"]:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ef9636), color-stop(100%, #ed8a1f));
   background-image: -webkit-linear-gradient(top, #ef9636, #ed8a1f);
