@@ -570,9 +570,6 @@ section.plus{
 #prop3{
 	background: $couleur-fond-entrepreneur;
 }
-#plus-entrepreneuriat{
-	background: $couleur-fond-contraste;
-}
 
 #transversalite{
 	background: $couleur-fond-transversalite;
@@ -642,6 +639,12 @@ section.plus{
 }
 #prop9-image > div{
 	background-image: url('../img/pasfait.jpg');
+}
+
+#plus-entrepreneuriat,
+#plus-transversalite,
+#plus-ouverture{
+	background: $couleur-fond-contraste;
 }
 
 #debat{

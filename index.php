@@ -377,7 +377,7 @@
 				</li>
 				<li>
 					<div class="wrap plus" data-num="...">
-						<a href="#">
+						<a href="#plus-transversalite">
 							Voir les 7 autres propositions
 						</a>
 					</div>
@@ -515,6 +515,23 @@
 			</div>
 		</div>
 	</section>
+	<section id="plus-transversalite" class="slide plus">
+		<div class="slide-inner">
+			<h1>
+				&hellip;
+			</h1>
+			<h2>
+				Découvrir les <span>10</span> propositions en matière de transversalité
+			</h2>
+			
+			<a href="#" class="download">
+				<img src="img/livre_transversalite.jpg" />
+				<div>
+					Télécharger la partie Transversalité
+				</div>
+			</a>
+		</div>
+	</section>
 	<section id="ouverture" class="slide valeur">
 		<div class="slide-inner">
 			<h1>
@@ -557,7 +574,7 @@
 				</li>
 				<li>
 					<div class="wrap plus" data-num="...">
-						<a href="#">
+						<a href="#plus-ouverture">
 							Voir les 4 autres propositions
 						</a>
 					</div>
@@ -704,6 +721,23 @@
 					de la pédagogie.
 				</p>
 			</div>
+		</div>
+	</section>
+	<section id="plus-ouverture" class="slide plus">
+		<div class="slide-inner">
+			<h1>
+				&hellip;
+			</h1>
+			<h2>
+				Découvrir les <span>7</span> propositions en matière d'ouverture sociale
+			</h2>
+			
+			<a href="#" class="download">
+				<img src="img/livre_ouverture.jpg" />
+				<div>
+					Télécharger la partie Ouverture Sociale
+				</div>
+			</a>
 		</div>
 	</section>
 	<section id="debat" class="slide">
