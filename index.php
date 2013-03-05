@@ -209,7 +209,7 @@
 				Développer une filière entrepreneur-études
 			</h1>
 			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+				Une demi-journée par semaine pour sensibiliser les élèves du secondaire à la fibre entrepreneuriale
 			</h2>
 			<hr />
 			<div class="content">
@@ -243,7 +243,7 @@
 				Créer un statut entrepreneur-étudiant
 			</h1>
 			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+				Pour accompagner et protéger les étudiants futurs créateurs d'entreprises grâce a un statut dédié
 			</h2>
 			<hr />
 			<div class="content">
@@ -294,7 +294,7 @@
 				Créer un label &laquo;Pépinière de jeunes chercheurs&raquo;
 			</h1>
 			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+				Libéraliser et assouplir les clauses contractuelles des enseignants chercheurs pour créer de la valeur
 			</h2>
 			<hr />
 			<div class="content">
@@ -448,7 +448,7 @@
 				Lutter contre les silos au lycée
 			</h1>
 			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+				Décloisonner davantage les apprentissages au lycée pour favoriser les échanges et la mixité sociale
 			</h2>
 			<hr />
 			<div class="content">
@@ -495,7 +495,7 @@
 				Encourager les thèses pluri-disciplinaires
 			</h1>
 			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+				Développer les bi-compétences des doctorants pendant le cursus de thèse
 			</h2>
 			<hr />
 			<div class="content">
@@ -534,7 +534,7 @@
 				Former davantage à la créativité
 			</h1>
 			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+				Valoriser l'inventivité et l'ouverture personnelle des élèves et étudiants pour davantage de créativité
 			</h2>
 			<hr />
 			<div class="content">
@@ -667,7 +667,7 @@
 				Considérer l'ouverture sociale comme un moteur et non comme une contrainte
 			</h1>
 			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+				Intégrer des initiatives sociales et rapprochements avec les associations et structures d'appuis au cœur de la pédagogie
 			</h2>
 			<hr />
 			<div class="content">
@@ -704,7 +704,7 @@
 				Favoriser les liens avec les mileiux sociaux, économiques et culturels
 			</h1>
 			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+				Faire sauter les barrières entre ces deux mondes pour mieux accompagner et faire réussir les élèves
 			</h2>
 			<hr />
 			<div class="content">
@@ -794,7 +794,7 @@
 				Développer un &laquo;Erasmus&raquo; des professeurs
 			</h1>
 			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
+				Internationaliser et découvrir de nouvelles cultures à tous les niveaux de la formation des enseignants
 			</h2>
 			<hr />
 			<div class="content">
