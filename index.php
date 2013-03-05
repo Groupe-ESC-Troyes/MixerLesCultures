@@ -110,15 +110,46 @@
 				ce livre ?
 			</h1>
 			<h2>
-				Munster ch'ai semper vielmols, messti de Bischheim und quam, gewurztraminer hopla flammekueche in, tellus réchime Salut bisamme tellus sagittis ullamcorper.
+				Pour faire partager des expériences initiées depuis 20 ans, pour proposer des idées
+				nouvelles et propositions de ruptures, pour apporter notre pierre à l'édifice et,
+				surtout, plutôt que de critiquer — trop facile et peu constructif — nous préférons
+				proposer et promouvoir, en toute humilité, des projets utiles pour tous.
 			</h2>
 			<hr />
 			<div class="content">
-				<p>Lorem Salu bissame ! Wie geht's les samis ? Hans apporte moi une Wurschtsalad avec un picon bitte, s'il te plaît.
-	 			Voss ? Une Carola et du Melfor ? Yo dû, espèce de Knäckes, ch'ai dit un picon !</p> 
-				<p>Hopla vous savez que la mamsell Huguette, la miss Miss Dahlias du messti de Bischheim était au Christkindelsmärik en compagnie de Richard Schirmeck (celui qui a un blottkopf), le mari de Chulia Roberstau, qui lui trempait sa Nüdle dans sa Schneck ! Yo dû, Pfourtz ! Ch'espère qu'ils avaient du Kabinetpapier, Gal !</p>
-				<p>Yoo ch'ai lu dans les DNA que le Racing a encore perdu contre Oberschaeffolsheim. Verdammi et moi ch'avais donc parié deux knacks et une flammekueche. Ah so ? T'inquiète, ch'ai ramené du schpeck, du chambon, un kuglopf et du schnaps dans mon rucksack. Allez, s'guelt ! Wotch a kofee avec ton bibalaekaess et ta wurscht ? Yeuh non che suis au réchime, je ne mange plus que des Grumbeere light et che fais de la chym avec Chulien. Tiens, un rottznoz sur le comptoir.</p>
-				<p>Tu restes pour le lotto-owe ce soir, y'a baeckeoffe ? Yeuh non, merci vielmols mais che dois partir à la Coopé de Truchtersheim acheter des mänele et des rossbolla pour les gamins. Hopla tchao bissame ! Consectetur adipiscing elit</p>
+				<p class="dropcap">
+					L’enseignement supérieur ne doit jamais cesser de se réinventer et doit anticiper 
+					les grandes évolutions à venir en matière sociétale, économique et managériale. 
+					<br />
+					Le Groupe ESC Troyes s’est lancé dans une politique de développement par 
+					l’expérimentation et l’innovation. Il a su, par petites touches innovantes, 
+					accentuer la construction d’un groupe qui lui a permis de survivre à sa création 
+					et de développer un modèle qui répond à certaines carences importantes de notre 
+					système de formation, puisqu’elles touchent aussi bien à la pédagogie qu’à 
+					l’ouverture sociale.
+				</p>
+				<p>
+					Le soutien fort dont l’école a bénéficié de la part de son environnement s’est 
+					nourri des choix qu’elle a faits de privilégier la dimension entrepreneuriale, 
+					de promouvoir l’ouverture sociale et de diversifier son offre de formation. 
+					Chaque axe présente un intérêt fort en soi, mais leur combinaison aboutit non 
+					pas à une simple addition mais à une multiplication génératrice de synergies et 
+					d’ouvertures à forte valeur ajoutée.<br />
+					Dans un contexte de changement économique majeur et de restructurations 
+					industrielles fortes, il apparaît nécessaire de mettre en place un environnement 
+					favorable à l’innovation et à la création de nouvelles entreprises. 
+					L’enseignement supérieur a un rôle à jouer dans cette transformation, tout comme 
+					les structures et institutions valorisant l’entrepreneuriat.
+				</p>
+				<p>
+					Nous consignons cette stratégie afin de faire connaître ces initiatives. Personne 
+					n’en est propriétaire et c’est notre manière de contribuer humblement à imaginer 
+					un modèle différent dans notre milieu. Ces évolutions et propositions permettent 
+					d’aller parfois plus loin que les grandes révolutions fracassantes. Certaines de 
+					nos actions sont certainement transposables ailleurs, toutes sont discutables. 
+					Mais il nous appartient de les partager, afin de favoriser le développement de 
+					modèles alternatifs. 
+				</p>
 			</div>
 		</div>
 	</section>
