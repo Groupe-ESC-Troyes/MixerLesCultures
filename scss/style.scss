@@ -646,6 +646,13 @@ section.plus{
 #plus-ouverture{
 	background: $couleur-fond-contraste;
 }
+#plus-entrepreneuriat{
+	background-image: url('../img/fond_entrepreneuriat.jpg');
+	@include background-size(cover);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
 
 #debat{
 	background: #276440;
