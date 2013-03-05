@@ -191,9 +191,9 @@
 					</div>
 				</li>
 				<li>
-					<div class="wrap" data-num="#11">
-						<a href="#prop4">
-							Faciliter les contrats mixtes laboratoire-entreprise
+					<div class="wrap" data-num="...">
+						<a href="#plus-entrepreneuriat">
+							Plus de propositions
 						</a>
 					</div>
 				</li>
@@ -321,59 +321,6 @@
 			</div>
 		</div>
 	</section>
-	<section id="prop4-image" class="slide image">
-		<div></div>
-	</section>
-	<section id="prop4" class="slide">
-		<div class="slide-inner">
-			<h1>
-				Faciliter les contrats mixtes laboratoire-entreprise
-			</h1>
-			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
-			</h2>
-			<hr />
-			<div class="content">
-				<p class="dropcap">
-					Le monde académique et le monde de l’entreprise s’ignorent
-					depuis trop longtemps. Il devient même difficile de parler de
-					dialogue entre ces deux univers sans être accusé de vouloir
-					arrêter la recherche fondamentale ou de soumettre la science
-					aux intérêts privés.
-				</p>
-				<p>
-					Pourtant, il n’en est rien. Nous ne sommes pas ici dans une
-					démarche de prise de pouvoir des uns sur les autres. Nous prônons
-					un dialogue pour apprendre à se connaître et faire émerger
-					de nouvelles idées.
-				</p>
-				<p>
-					Légalement, nous n’avons d’autre choix que de dédier le contrat
-					de travail d’un enseignant-chercheur de manière exclusive à
-					une structure, à l’intérieur de laquelle, il développe sa recherche
-					dans le laboratoire rattaché à cet établissement. Bien que ceuxci
-					disposent de cellules de valorisation faisant la passerelle avec
-					des acteurs économiques, la relation nouée fait essentiellement
-					référence à un rapport client/fournisseur.
-				</p>
-				<p>
-					Notre proposition est de considérer que les chercheurs ont tout à
-					gagner en élargissant leur culture à celle du monde économique,
-					de sorte que cela influence leurs travaux de recherche pour
-					rapprocher le moment où leurs résultats seront en adéquation
-					avec les marchés et de la même manière, rassurer les entreprises
-					sur la manière dont ces acteurs de l’enseignement supérieur
-					contribuent à leur développement.
-				</p>
-				<p>
-					Pour ce faire, on doit pouvoir aller au-delà de cette contrainte
-					contractuelle pour établir un contrat mixte entre un établissement
-					d’enseignement et des acteurs privés ou territoriaux qui
-					pourrait instituer un retour de service vers la société civile.
-				</p>
-			</div>
-		</div>
-	</section>
 	<section id="plus-entrepreneuriat" class="slide plus">
 		<div class="slide-inner">
 			<h1>
@@ -429,10 +376,9 @@
 					</div>
 				</li>
 				<li>
-					<div class="wrap" data-num="#8">
-						<a href="#prop8" class="long">
-							Rapprocher les grandes écoles des universités
-							par la mise en commun du corps enseignant
+					<div class="wrap" data-num="...">
+						<a href="#">
+							Plus de propositions
 						</a>
 					</div>
 				</li>
@@ -569,45 +515,6 @@
 			</div>
 		</div>
 	</section>
-	<section id="prop8-image" class="slide image">
-		<div></div>
-	</section>
-	<section id="prop8" class="slide">
-		<div class="slide-inner">
-			<h1>
-				Rapprocher les grandes écoles des universités
-				par la mise en commun du corps enseignant
-			</h1>
-			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
-			</h2>
-			<hr />
-			<div class="content">
-				<p class="dropcap">
-					Les écoles de commerce ont des obligations strictes en
-					matière d’encadrement de leurs élèves par des docteurs. On
-					pourrait profiter de cela pour lancer des passerelles entre
-					universités et grandes écoles. 
-				</p>
-				<p>
-					Nous imaginons des docteurs
-					employés par l’université mais effectuant une partie de leurs
-					cours dans les écoles. Ce détachement contractuel ferait
-					l’objet d’une facturation par l’université. Ce système permettrait
-					d’avoir des hommes passerelles entre les universités
-					et les grandes écoles capables de dépasser les préjugés des
-					deux côtés. 
-				</p>
-				<p>
-					Pour les écoles, ce serait également l’occasion
-					d’avoir plus de souplesse quant à la gestion de leur personnel
-					encadrant et de faire profiter les étudiants de méthodes
-					pédagogiques plus variées et plus riches par l’apport mutuel
-					réalisé par des professeurs.
-				</p>
-			</div>
-		</div>
-	</section>
 	<section id="ouverture" class="slide valeur">
 		<div class="slide-inner">
 			<h1>
@@ -642,9 +549,9 @@
 					</div>
 				</li>
 				<li>
-					<div class="wrap" data-num="#4">
-						<a href="#prop11" class="long">
-							Réaliser des partenariats entre enseignement supérieur et enseignement secondaire
+					<div class="wrap" data-num="...">
+						<a href="#">
+							Plus de propositions
 						</a>
 					</div>
 				</li>
@@ -735,52 +642,6 @@
 					PME. Les ONG, les associations prennent de plus en plus
 					de place dans la société et dans l’économie, sans compter
 					l’apport personnel et professionnel pour les étudiants.
-				</p>
-			</div>
-		</div>
-	</section>
-	<section id="prop11-image" class="slide image">
-		<div></div>
-	</section>
-	<section id="prop11" class="slide">
-		<div class="slide-inner">
-			<h1>
-				Réaliser des partenariats entre enseignement supérieur et enseignement secondaire
-			</h1>
-			<h2>
-				Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.
-			</h2>
-			<hr />
-			<div class="content">
-				<p class="dropcap">
-					Les élèves, quel que soit leur niveau d’études, méconnaissent
-					bien souvent les possibilités qui s’offrent à eux dans le futur.
-					L’enseignement supérieur doit mieux se faire connaître
-					auprès des établissements de l’enseignement secondaire. Il
-					faut organiser des visites d’établissements afin de provoquer
-					des rencontres plus ou moins formelles.
-				</p>
-				<p>
-					Le but serait d’offrir à l’ensemble des jeunes une connaissance
-					personnelle des contenus et de l’environnement dans
-					lequel pourrait se dérouler leurs futures études. C’est un
-					engagement facile à prendre et une proposition abordable
-					financièrement. Ses bénéfices seraient loin d’être négligeables.
-					Une rencontre qui permettrait de s’attaquer enfin au
-					problème de l’orientation. Collégiens et lycéens sont dans
-					l’embarras quand vient le choix de l’orientation. Ils sont
-					dépendants de trop de points de vue extérieurs : les professeurs,
-					les conseillers d’orientation, les parents, les amis, etc.
-					Faute d’appréhender l’intégralité du problème, ils ne sont
-					pas maîtres de leur choix et une réelle démotivation s’ensuit
-					dans leurs études.
-				</p>
-				<p>
-					Cette initiative ouvrirait les horizons de ces adolescents. Ils
-					seraient en contact direct avec des filières dont ils n’auraient
-					peut-être jamais entendu parler sans cela, ou vaguement,
-					sur une feuille de papier résumant les si nombreuses voies
-					qui s’offrent à eux.
 				</p>
 			</div>
 		</div>
