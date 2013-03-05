@@ -191,9 +191,9 @@
 					</div>
 				</li>
 				<li>
-					<div class="wrap" data-num="...">
+					<div class="wrap plus" data-num="...">
 						<a href="#plus-entrepreneuriat">
-							Plus de propositions
+							Voir les 10 autres propositions
 						</a>
 					</div>
 				</li>
@@ -376,9 +376,9 @@
 					</div>
 				</li>
 				<li>
-					<div class="wrap" data-num="...">
+					<div class="wrap plus" data-num="...">
 						<a href="#">
-							Plus de propositions
+							Voir les 7 autres propositions
 						</a>
 					</div>
 				</li>
@@ -549,16 +549,16 @@
 					</div>
 				</li>
 				<li>
-					<div class="wrap" data-num="...">
-						<a href="#">
-							Plus de propositions
+					<div class="wrap" data-num="#6">
+						<a href="#prop12">
+							Développer un &laquo;Erasmus&raquo; des professeurs
 						</a>
 					</div>
 				</li>
 				<li>
-					<div class="wrap" data-num="#6">
-						<a href="#prop12">
-							Développer un &laquo;Erasmus&raquo; des professeurs
+					<div class="wrap plus" data-num="...">
+						<a href="#">
+							Voir les 4 autres propositions
 						</a>
 					</div>
 				</li>
