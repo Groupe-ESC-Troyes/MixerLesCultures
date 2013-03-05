@@ -356,21 +356,21 @@
 			<ul class="prop-links clearfix">
 				<li>
 					<div class="wrap" data-num="#1">
-						<a href="#prop5">
+						<a href="#prop4">
 							Lutter contre les silos au lycée
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#4">
-						<a href="#prop6">
+						<a href="#prop5">
 							Encourager les thèses pluri-disciplinaires
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#5">
-						<a href="#prop7">
+						<a href="#prop6">
 							Former davantage à la créativité
 						</a>
 					</div>
@@ -385,10 +385,10 @@
 			</ul>
 		</div>
 	</section>
-	<section id="prop5-image" class="slide image">
+	<section id="prop4-image" class="slide image">
 		<div></div>
 	</section>
-	<section id="prop5" class="slide">
+	<section id="prop4" class="slide">
 		<div class="slide-inner">
 			<h1>
 				#1 // Lutter contre les silos au lycée
@@ -432,10 +432,10 @@
 			</div>
 		</div>
 	</section>
-	<section id="prop6-image" class="slide image">
+	<section id="prop5-image" class="slide image">
 		<div></div>
 	</section>
-	<section id="prop6" class="slide">
+	<section id="prop5" class="slide">
 		<div class="slide-inner">
 			<h1>
 				#4 // Encourager les thèses pluri-disciplinaires
@@ -471,10 +471,10 @@
 			</div>
 		</div>
 	</section>
-	<section id="prop7-image" class="slide image">
+	<section id="prop6-image" class="slide image">
 		<div></div>
 	</section>
-	<section id="prop7" class="slide">
+	<section id="prop6" class="slide">
 		<div class="slide-inner">
 			<h1>
 				#5 // Former davantage à la créativité
@@ -536,21 +536,21 @@
 			<ul class="prop-links clearfix">
 				<li>
 					<div class="wrap" data-num="#1">
-						<a href="#prop9" class="long">
+						<a href="#prop7" class="long">
 							Considérer l'ouverture sociale comme un moteur et non comme une contrainte
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#3">
-						<a href="#prop10" class="long">
+						<a href="#prop8" class="long">
 							Favoriser les liens avec les mileiux sociaux, économiques et culturels
 						</a>
 					</div>
 				</li>
 				<li>
 					<div class="wrap" data-num="#6">
-						<a href="#prop12">
+						<a href="#prop9">
 							Développer un &laquo;Erasmus&raquo; des professeurs
 						</a>
 					</div>
@@ -565,10 +565,10 @@
 			</ul>
 		</div>
 	</section>
-	<section id="prop9-image" class="slide image">
+	<section id="prop7-image" class="slide image">
 		<div></div>
 	</section>
-	<section id="prop9" class="slide">
+	<section id="prop7" class="slide">
 		<div class="slide-inner">
 			<h1>
 				#1 // Considérer l'ouverture sociale comme un moteur et non comme une contrainte
@@ -602,10 +602,10 @@
 			</div>
 		</div>
 	</section>
-	<section id="prop10-image" class="slide image">
+	<section id="prop8-image" class="slide image">
 		<div></div>
 	</section>
-	<section id="prop10" class="slide">
+	<section id="prop8" class="slide">
 		<div class="slide-inner">
 			<h1>
 				#3 // Favoriser les liens avec les mileiux sociaux, économiques et culturels
@@ -646,10 +646,10 @@
 			</div>
 		</div>
 	</section>
-	<section id="prop12-image" class="slide image">
+	<section id="prop9-image" class="slide image">
 		<div></div>
 	</section>
-	<section id="prop12" class="slide">
+	<section id="prop9" class="slide">
 		<div class="slide-inner">
 			<h1>
 				#6 // Développer un &laquo;Erasmus&raquo; des professeurs

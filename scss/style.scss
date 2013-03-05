@@ -563,15 +563,11 @@ section.plus{
 	background-image: url('../img/statut.jpg');
 }
 #prop3-image > div{
-	background-image: url('../img/pasfait.jpg');
-}
-#prop4-image > div{
-	background-image: url('../img/labo-entreprises.jpg');
+	background-image: url('../img/pepiniere.jpg');
 }
 #prop1,
 #prop2,
-#prop3,
-#prop4{
+#prop3{
 	background: $couleur-fond-entrepreneur;
 }
 #plus-entrepreneuriat{
@@ -598,23 +594,19 @@ section.plus{
 		content: "2";
 	}
 }
+#prop4,
 #prop5,
-#prop6,
-#prop7,
-#prop8{
+#prop6{
 	background: $couleur-fond-transversalite;
+}
+#prop4-image > div{
+	background-image: url('../img/pasfait.jpg');
 }
 #prop5-image > div{
 	background-image: url('../img/pasfait.jpg');
 }
 #prop6-image > div{
-	background-image: url('../img/pasfait.jpg');
-}
-#prop7-image > div{
 	background-image: url('../img/creativite.jpg');
-}
-#prop8-image > div{
-	background-image: url('../img/enseignant.jpg');
 }
 
 #ouverture{
@@ -637,22 +629,18 @@ section.plus{
 		content: "3";
 	}
 }
-#prop9,
-#prop10,
-#prop11,
-#prop12{
+#prop7,
+#prop8,
+#prop9{
 	background: $couleur-fond-ouverture;
 }
-#prop9-image > div{
+#prop7-image > div{
 	background-image: url('../img/ouverture.jpg');
 }
-#prop10-image > div{
+#prop8-image > div{
 	background-image: url('../img/pasfait.jpg');
 }
-#prop11-image > div{
-	background-image: url('../img/pasfait.jpg');
-}
-#prop12-image > div{
+#prop9-image > div{
 	background-image: url('../img/pasfait.jpg');
 }
 
