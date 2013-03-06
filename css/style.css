@@ -1201,7 +1201,7 @@ section.plus a.download div {
   top: 20%;
   width: 150%;
   left: -25%;
-  padding: 15px 0;
+  padding: 15px 10px;
   background: #3f5049;
   text-align: center;
   -webkit-transition: all 0.2s ease-in;
