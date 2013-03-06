@@ -116,9 +116,9 @@
 			</h1>
 			<h2>
 				Pour faire partager des expériences initiées depuis 20 ans, pour proposer des idées
-				nouvelles et propositions de ruptures, pour apporter notre pierre à l'édifice et,
-				surtout, plutôt que de critiquer — trop facile et peu constructif — nous préférons
-				proposer et promouvoir, en toute humilité, des projets utiles pour tous.
+				nouvelles et propositions de ruptures et,
+				surtout, plutôt que de critiquer — trop facile et peu constructif — pour suggérer
+				et promouvoir, en toute humilité, des projets utiles pour tous.
 			</h2>
 			<hr />
 			<div class="content">
