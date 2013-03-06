@@ -1502,12 +1502,6 @@ section.plus a.download div:after {
 #plus-entrepreneuriat,
 #plus-transversalite,
 #plus-ouverture {
-  background: #252525;
-}
-
-/* line 649, ../scss/style.scss */
-#plus-entrepreneuriat {
-  background-image: url("../img/fond_entrepreneuriat.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1515,54 +1509,70 @@ section.plus a.download div:after {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-color: #252525;
 }
 
-/* line 657, ../scss/style.scss */
+/* line 653, ../scss/style.scss */
+#plus-entrepreneuriat {
+  background-image: url("../img/fond_entrepreneuriat.jpg");
+}
+
+/* line 656, ../scss/style.scss */
+#plus-transversalite {
+  background-image: url("../img/fond_transversalite.jpg");
+}
+
+/* line 659, ../scss/style.scss */
+#plus-ouverture {
+  background-image: url("../img/fond_ouverture.jpg");
+}
+
+/* line 663, ../scss/style.scss */
 #debat {
   background: #276440;
 }
-/* line 660, ../scss/style.scss */
+/* line 666, ../scss/style.scss */
 #debat h1 {
   text-align: center;
 }
-/* line 663, ../scss/style.scss */
+/* line 669, ../scss/style.scss */
 #debat h2 {
   text-align: center;
   line-height: 1.5em;
 }
-/* line 667, ../scss/style.scss */
+/* line 673, ../scss/style.scss */
 #debat img {
   display: block;
   margin: 50px auto;
   width: 300px;
 }
 
-/* line 675, ../scss/style.scss */
+/* line 681, ../scss/style.scss */
 #form {
   text-align: center;
   margin: 30px 0 40px;
 }
 
-/* line 679, ../scss/style.scss */
+/* line 685, ../scss/style.scss */
 #form p {
   margin-bottom: 20px;
 }
 
-/* line 682, ../scss/style.scss */
+/* line 688, ../scss/style.scss */
 #form input[type="email"] {
   color: #333;
   padding: 4px 8px;
   border: none;
   width: 250px;
 }
-/* line 688, ../scss/style.scss */
+/* line 694, ../scss/style.scss */
 #form input[type="email"]:focus {
   -webkit-box-shadow: inset 0 0 5px 2px #2965c7;
   -moz-box-shadow: inset 0 0 5px 2px #2965c7;
   box-shadow: inset 0 0 5px 2px #2965c7;
 }
 
-/* line 692, ../scss/style.scss */
+/* line 698, ../scss/style.scss */
 #form input[type="submit"] {
   border: none;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed8a1f), color-stop(100%, #e07d12));
@@ -1572,7 +1582,7 @@ section.plus a.download div:after {
   background-image: linear-gradient(top, #ed8a1f, #e07d12);
   padding: 5px 15px;
 }
-/* line 698, ../scss/style.scss */
+/* line 704, ../scss/style.scss */
 #form input[type="submit"]:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ef9636), color-stop(100%, #ed8a1f));
   background-image: -webkit-linear-gradient(top, #ef9636, #ed8a1f);

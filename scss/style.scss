@@ -644,14 +644,20 @@ section.plus{
 #plus-entrepreneuriat,
 #plus-transversalite,
 #plus-ouverture{
-	background: $couleur-fond-contraste;
-}
-#plus-entrepreneuriat{
-	background-image: url('../img/fond_entrepreneuriat.jpg');
 	@include background-size(cover);
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-color: $couleur-fond-contraste;
+}
+#plus-entrepreneuriat{
+	background-image: url('../img/fond_entrepreneuriat.jpg');
+}
+#plus-transversalite{
+	background-image: url('../img/fond_transversalite.jpg');
+}
+#plus-ouverture{
+	background-image: url('../img/fond_ouverture.jpg');
 }
 
 #debat{
