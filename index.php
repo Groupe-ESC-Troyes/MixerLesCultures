@@ -101,6 +101,11 @@
 			<a href="" class="download">
 				Télécharger le livre blanc au format PDF
 			</a>
+			
+			<div class="letudiant">
+				Une publication réalisée par
+				<img src="img/letudiant.jpg" />
+			</div>
 		</div>
 	</section>
 	<section id="pourquoi" class="slide">

@@ -523,6 +523,26 @@ section.plus{
 			width: 90%;
 		}
 	}
+	
+	div.letudiant{
+		margin-top: 120px;
+		text-align: center;
+		text-transform: uppercase;
+		@include font-size(16);
+		
+		@include breakpoint(mobile){
+			@include font-size(12);
+		}
+	}
+	div.letudiant img{
+		display: block;
+		width: 250px;
+		margin: auto;
+		
+		@include breakpoint(mobile){
+			width: 150px;
+		}
+	}
 }
 #pourquoi{
 	background: $couleur-fond-contraste;
