@@ -566,7 +566,7 @@
 				<li>
 					<div class="wrap" data-num="#3">
 						<a href="#prop8" class="long">
-							Favoriser les liens avec les mileiux sociaux, économiques et culturels
+							Favoriser les liens avec les milieux sociaux, économiques et culturels
 						</a>
 					</div>
 				</li>
