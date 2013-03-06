@@ -1349,7 +1349,8 @@ section.plus a.download div:after {
 }
 /* line 527, ../scss/style.scss */
 #home div.letudiant {
-  margin-top: 120px;
+  width: 150px;
+  margin: 120px auto 0;
   text-align: center;
   text-transform: uppercase;
   font-size: 16px;
@@ -1362,170 +1363,162 @@ section.plus a.download div:after {
     font-size: 1.2rem;
   }
 }
-/* line 537, ../scss/style.scss */
+/* line 538, ../scss/style.scss */
 #home div.letudiant img {
   display: block;
-  width: 250px;
-  margin: auto;
-}
-@media (max-width: 767px) {
-  /* line 537, ../scss/style.scss */
-  #home div.letudiant img {
-    width: 150px;
-  }
 }
 
-/* line 547, ../scss/style.scss */
+/* line 542, ../scss/style.scss */
 #pourquoi {
   background: #252525;
 }
-/* line 550, ../scss/style.scss */
+/* line 545, ../scss/style.scss */
 #pourquoi h1 span {
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  /* line 550, ../scss/style.scss */
+  /* line 545, ../scss/style.scss */
   #pourquoi h1 span {
     display: block;
   }
 }
 
-/* line 558, ../scss/style.scss */
+/* line 553, ../scss/style.scss */
 #entrepreneur {
   background: #cb3521;
   position: relative;
   overflow: hidden;
 }
-/* line 563, ../scss/style.scss */
+/* line 558, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap {
   background: #8e2011;
 }
-/* line 565, ../scss/style.scss */
+/* line 560, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:hover {
   background: #771b0e;
 }
-/* line 569, ../scss/style.scss */
+/* line 564, ../scss/style.scss */
 #entrepreneur ul.prop-links div.wrap:after {
   color: #cb3521;
 }
-/* line 574, ../scss/style.scss */
+/* line 569, ../scss/style.scss */
 #entrepreneur:after {
   content: "1";
 }
 
-/* line 579, ../scss/style.scss */
+/* line 574, ../scss/style.scss */
 #prop1-image > div {
   background-image: url("../img/entrepreneuretudiant.jpg");
 }
 
-/* line 582, ../scss/style.scss */
+/* line 577, ../scss/style.scss */
 #prop2-image > div {
   background-image: url("../img/statut.jpg");
 }
 
-/* line 585, ../scss/style.scss */
+/* line 580, ../scss/style.scss */
 #prop3-image > div {
   background-image: url("../img/pepiniere.jpg");
 }
 
-/* line 590, ../scss/style.scss */
+/* line 585, ../scss/style.scss */
 #prop1,
 #prop2,
 #prop3 {
   background: #cb3521;
 }
 
-/* line 594, ../scss/style.scss */
+/* line 589, ../scss/style.scss */
 #transversalite {
   background: #2145cb;
   position: relative;
   overflow: hidden;
 }
-/* line 599, ../scss/style.scss */
+/* line 594, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap {
   background: #1331a1;
 }
-/* line 601, ../scss/style.scss */
+/* line 596, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap:hover {
   background: #102a8a;
 }
-/* line 605, ../scss/style.scss */
+/* line 600, ../scss/style.scss */
 #transversalite ul.prop-links div.wrap:after {
   color: #2145cb;
 }
-/* line 610, ../scss/style.scss */
+/* line 605, ../scss/style.scss */
 #transversalite:after {
   content: "2";
 }
 
-/* line 616, ../scss/style.scss */
+/* line 611, ../scss/style.scss */
 #prop4,
 #prop5,
 #prop6 {
   background: #2145cb;
 }
 
-/* line 619, ../scss/style.scss */
+/* line 614, ../scss/style.scss */
 #prop4-image > div {
   background-image: url("../img/silos.jpg");
 }
 
-/* line 622, ../scss/style.scss */
+/* line 617, ../scss/style.scss */
 #prop5-image > div {
   background-image: url("../img/theses.jpg");
 }
 
-/* line 625, ../scss/style.scss */
+/* line 620, ../scss/style.scss */
 #prop6-image > div {
   background-image: url("../img/creativite.jpg");
 }
 
-/* line 629, ../scss/style.scss */
+/* line 624, ../scss/style.scss */
 #ouverture {
   background: #ce2c9a;
   position: relative;
   overflow: hidden;
 }
-/* line 634, ../scss/style.scss */
+/* line 629, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap {
   background: #8b1164;
 }
-/* line 636, ../scss/style.scss */
+/* line 631, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap:hover {
   background: #740e54;
 }
-/* line 640, ../scss/style.scss */
+/* line 635, ../scss/style.scss */
 #ouverture ul.prop-links div.wrap:after {
   color: #ce2c9a;
 }
-/* line 645, ../scss/style.scss */
+/* line 640, ../scss/style.scss */
 #ouverture:after {
   content: "3";
 }
 
-/* line 651, ../scss/style.scss */
+/* line 646, ../scss/style.scss */
 #prop7,
 #prop8,
 #prop9 {
   background: #ce2c9a;
 }
 
-/* line 654, ../scss/style.scss */
+/* line 649, ../scss/style.scss */
 #prop7-image > div {
   background-image: url("../img/ouverture.jpg");
 }
 
-/* line 657, ../scss/style.scss */
+/* line 652, ../scss/style.scss */
 #prop8-image > div {
   background-image: url("../img/milieux.jpg");
 }
 
-/* line 660, ../scss/style.scss */
+/* line 655, ../scss/style.scss */
 #prop9-image > div {
   background-image: url("../img/erasmus.jpg");
 }
 
-/* line 666, ../scss/style.scss */
+/* line 661, ../scss/style.scss */
 #plus-entrepreneuriat,
 #plus-transversalite,
 #plus-ouverture {
@@ -1539,67 +1532,67 @@ section.plus a.download div:after {
   background-color: #252525;
 }
 
-/* line 673, ../scss/style.scss */
+/* line 668, ../scss/style.scss */
 #plus-entrepreneuriat {
   background-image: url("../img/fond_entrepreneuriat.jpg");
 }
 
-/* line 676, ../scss/style.scss */
+/* line 671, ../scss/style.scss */
 #plus-transversalite {
   background-image: url("../img/fond_transversalite.jpg");
 }
 
-/* line 679, ../scss/style.scss */
+/* line 674, ../scss/style.scss */
 #plus-ouverture {
   background-image: url("../img/fond_ouverture.jpg");
 }
 
-/* line 683, ../scss/style.scss */
+/* line 678, ../scss/style.scss */
 #debat {
   background: #276440;
 }
-/* line 686, ../scss/style.scss */
+/* line 681, ../scss/style.scss */
 #debat h1 {
   text-align: center;
 }
-/* line 689, ../scss/style.scss */
+/* line 684, ../scss/style.scss */
 #debat h2 {
   text-align: center;
   line-height: 1.5em;
 }
-/* line 693, ../scss/style.scss */
+/* line 688, ../scss/style.scss */
 #debat img {
   display: block;
   margin: 50px auto;
   width: 300px;
 }
 
-/* line 701, ../scss/style.scss */
+/* line 696, ../scss/style.scss */
 #form {
   text-align: center;
   margin: 30px 0 40px;
 }
 
-/* line 705, ../scss/style.scss */
+/* line 700, ../scss/style.scss */
 #form p {
   margin-bottom: 20px;
 }
 
-/* line 708, ../scss/style.scss */
+/* line 703, ../scss/style.scss */
 #form input[type="email"] {
   color: #333;
   padding: 4px 8px;
   border: none;
   width: 250px;
 }
-/* line 714, ../scss/style.scss */
+/* line 709, ../scss/style.scss */
 #form input[type="email"]:focus {
   -webkit-box-shadow: inset 0 0 5px 2px #2965c7;
   -moz-box-shadow: inset 0 0 5px 2px #2965c7;
   box-shadow: inset 0 0 5px 2px #2965c7;
 }
 
-/* line 718, ../scss/style.scss */
+/* line 713, ../scss/style.scss */
 #form input[type="submit"] {
   border: none;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed8a1f), color-stop(100%, #e07d12));
@@ -1609,7 +1602,7 @@ section.plus a.download div:after {
   background-image: linear-gradient(top, #ed8a1f, #e07d12);
   padding: 5px 15px;
 }
-/* line 724, ../scss/style.scss */
+/* line 719, ../scss/style.scss */
 #form input[type="submit"]:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ef9636), color-stop(100%, #ed8a1f));
   background-image: -webkit-linear-gradient(top, #ef9636, #ed8a1f);

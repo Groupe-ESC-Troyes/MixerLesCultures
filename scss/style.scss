@@ -525,7 +525,8 @@ section.plus{
 	}
 	
 	div.letudiant{
-		margin-top: 120px;
+		width: 150px;
+		margin: 120px auto 0;
 		text-align: center;
 		text-transform: uppercase;
 		@include font-size(16);
@@ -536,12 +537,6 @@ section.plus{
 	}
 	div.letudiant img{
 		display: block;
-		width: 250px;
-		margin: auto;
-		
-		@include breakpoint(mobile){
-			width: 150px;
-		}
 	}
 }
 #pourquoi{
