@@ -52,6 +52,9 @@ ol{
 h1{
 	margin-bottom: 25px;
 }
+h2{
+	line-height: 1.2em;
+}
 hr{
 	border: none;
 	padding-bottom: 20px;
@@ -74,6 +77,7 @@ div.content{
 	
 	@include breakpoint(mobile){
 		@include column-count(1);
+		text-align: left;
 	}
 }
 
