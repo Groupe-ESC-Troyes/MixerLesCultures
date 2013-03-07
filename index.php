@@ -98,7 +98,7 @@
 				Lancement le 20 mars 2013
 			</strong>
 			
-			<a href="" class="download">
+			<a href="files/LivreBlanc.pdf" target="_blank" class="download">
 				Télécharger le livre blanc au format PDF
 			</a>
 			
@@ -335,7 +335,7 @@
 				Découvrir les <span>13</span> propositions en matière d'entrepreneuriat
 			</h2>
 			
-			<a href="#" class="download">
+			<a href="files/LivreBlanc_Entrepreneuriat.pdf" target="_blank" class="download">
 				<img src="img/livre_entrepreneuriat.jpg" />
 				<div>
 					Télécharger la partie Entrepreneuriat
@@ -529,7 +529,7 @@
 				Découvrir les <span>10</span> propositions en matière de transversalité
 			</h2>
 			
-			<a href="#" class="download">
+			<a href="files/LivreBlanc_Transversalite.pdf" target="_blank" class="download">
 				<img src="img/livre_transversalite.jpg" />
 				<div>
 					Télécharger la partie Transversalité
@@ -737,7 +737,7 @@
 				Découvrir les <span>7</span> propositions en matière d'ouverture sociale
 			</h2>
 			
-			<a href="#" class="download">
+			<a href="files/LivreBlanc_Ouverture.pdf" target="_blank" class="download">
 				<img src="img/livre_ouverture.jpg" />
 				<div>
 					Télécharger la partie Ouverture Sociale
