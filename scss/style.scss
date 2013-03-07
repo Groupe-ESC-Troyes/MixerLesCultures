@@ -473,6 +473,9 @@ section.plus{
 	background-image: url('../img/home.jpg');
 	color: $couleur-texte-corporate;
 
+	div.slide-inner{
+		padding-bottom: 0;
+	}
 	h1{
 		margin-bottom: 0;
 		
@@ -523,14 +526,15 @@ section.plus{
 	}
 	
 	div.letudiant{
-		width: 150px;
-		margin: 120px auto 0;
+		width: 100px;
+		margin: 180px auto 0;
 		text-align: center;
 		text-transform: uppercase;
-		@include font-size(16);
+		@include font-size(12);
 		
 		@include breakpoint(mobile){
 			@include font-size(12);
+			margin: 90px auto 0;
 		}
 	}
 	div.letudiant img{
