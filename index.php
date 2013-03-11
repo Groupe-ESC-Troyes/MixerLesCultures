@@ -773,10 +773,9 @@
 				</div>
 				<p class="answer">
 					<strong>
-						Votre demande à bien été enregistrée.
+						Votre demande a bien été enregistrée.<br />
 					</strong>
-					<br />
-					Nous vous remercions pour votre intêret et ne manquerons pas de vous tenir informé de la suite des évènements.
+					Nous vous remercions pour votre intérêt et ne manquerons pas de vous tenir informé.
 				</p>
 			</form>
 			
