@@ -764,18 +764,14 @@
 			<form id="form" method="post">
 				<div class="form">
 					<p>
-						Discussions, échanges, idées, propositions… les débats continuent sur ce site à partir du 20 mars.<br />
-						Pour en être informé, entrez votre adresse mail ci-dessous.
+						Le débat continue à partir du 20 mars. Entez votre adresse email pour rester informé.
 					</p>
 					<input type="email" name="email" placeholder="Votre adresse email" required />
 					<input type="text" name="honey" />
 					<input type="submit" value="Envoyer" />
 				</div>
 				<p class="answer">
-					<strong>
-						Votre demande a bien été enregistrée.<br />
-					</strong>
-					Nous vous remercions pour votre intérêt et ne manquerons pas de vous tenir informé.
+					Merci de votre intérêt pour le Livre Blanc. Vous serez très bientôt informé de l’ouverture des débats.
 				</p>
 			</form>
 			
