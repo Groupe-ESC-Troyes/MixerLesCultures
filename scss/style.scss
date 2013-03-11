@@ -720,6 +720,9 @@ section.plus{
 		@include single-box-shadow(#2965c7, 0, 0, 5px, 2px, inset);
 	}
 }
+#form input[name="honey"]{
+	display: none;
+}
 #form input[type="submit"]{
 	$orange: #e07d12;
 	border: none;
@@ -732,4 +735,7 @@ section.plus{
 	&:active{
 		@include background-image(linear-gradient(top, $orange, darken($orange, 5)));
 	}
+}
+#form p.answer{
+	display: none;
 }

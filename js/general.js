@@ -17,4 +17,13 @@ $(function(){
 	
 	$.localScroll({hash: true});
 	$('body').scrollspy({target: '#menu', offset: 100});
+	
+	$('#form').submit(function(event){
+		event.preventDefault();
+		$.post('mailer.php', $(this).serialize()).success(function(){
+			$('#form .form').slideUp(function(){
+				$('#form .answer').slideDown();
+			});
+		});
+	});
 });

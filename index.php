@@ -758,11 +758,22 @@
 			</h2>
 			
 			<form id="form" method="post">
-				<p>
-					Nous pouvons aussi vous prévenir par mail lorsque notre plateforme de débat sera ouverte
+				<div class="form">
+					<p>
+						Discussions, échanges, idées, propositions… les débats continuent sur ce site à partir du 20 mars.<br />
+						Pour en être informé, entrez votre adresse mail ci-dessous.
+					</p>
+					<input type="email" name="email" placeholder="Votre adresse email" required />
+					<input type="text" name="honey" />
+					<input type="submit" value="Envoyer" />
+				</div>
+				<p class="answer">
+					<strong>
+						Votre demande à bien été enregistrée.
+					</strong>
+					<br />
+					Nous vous remercions pour votre intêret et ne manquerons pas de vous tenir informé de la suite des évènements.
 				</p>
-				<input type="email" name="email" placeholder="Votre adresse email" />
-				<input type="submit" value="Envoyer" />
 			</form>
 			
 			<small>
