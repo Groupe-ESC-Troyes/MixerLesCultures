@@ -695,6 +695,10 @@ section.plus{
 		display: block;
 		margin: 50px auto;
 		width: 300px;
+		
+		@include breakpoint(mobile){
+			width: 150px;
+		}
 	}
 }
 
@@ -719,10 +723,13 @@ section.plus{
 #form input[type="submit"]{
 	$orange: #e07d12;
 	border: none;
-	@include background-image(linear-gradient(top, lighten($orange, 5), $orange));
+	@include background-image(linear-gradient(top, lighten($orange, 10), lighten($orange, 5)));
 	padding: 5px 15px;
 
 	&:hover{
-		@include background-image(linear-gradient(top, lighten($orange, 10), lighten($orange, 5)));
+		@include background-image(linear-gradient(top, lighten($orange, 5), $orange));
+	}
+	&:active{
+		@include background-image(linear-gradient(top, $orange, darken($orange, 5)));
 	}
 }
