@@ -314,17 +314,17 @@
 					et installés.
 				</p>
 				<p>
-					Nous pourrions créer un label de « pépinière de jeunes chercheurs
-					» pour ces institutions, qui recevraient des aides pour leur
+					Nous pourrions créer un label de <strong>« pépinière de jeunes chercheurs
+					»</strong> pour ces institutions, qui recevraient des aides pour leur
 					travail en échange d’un cahier des charges précis incluant une
-					sensibilisation à l’entrepreneuriat et des actions de valorisation
+					<strong>sensibilisation à l’entrepreneuriat</strong> et des actions de valorisation
 					et de transfert vers l’économie.
 				</p>
 				<p>
 					Trop souvent, les chercheurs déposant un brevet le revendent
 					par la suite sans aller jusqu’à la création d’un business. Cela est
-					laissé aux grands groupes, moins générateurs d’emplois. Donner
-					la fibre entrepreneuriale à ces jeunes talents permettrait de créer
+					laissé aux grands groupes, moins générateurs d’emplois. <strong>Donner
+					la fibre entrepreneuriale à ces jeunes talents</strong> permettrait de créer
 					de la richesse et de l’innovation.
 				</p>
 			</div>
@@ -410,15 +410,15 @@
 				<p class="dropcap">
 					Au lycée, la filière scientifique vampirise les autres. À gros
 					traits, les bons en mathématiques vont en S et les autres
-					s’éparpillent dans les autres filières. Il faut en terminer avec
-					ce diktat. La situation est tellement absurde que beaucoup
+					s’éparpillent dans les autres filières. <strong>Il faut en terminer avec
+					ce diktat.</strong> La situation est tellement absurde que beaucoup
 					d’élèves sont envoyés en S par leurs parents alors qu’ils n’en
 					ont aucune envie.
 				</p>
 				<p>
 					Heureusement, de bonnes initiatives émergent avec l’ouverture
 					des concours des grandes écoles aux classes préparatoires
-					littéraires. Mais nous voulons aller plus loin.
+					littéraires. <strong>Mais nous voulons aller plus loin.</strong>
 				</p>
 				<p>
 					Le lycée souffre d’une ségrégation physique des différentes
@@ -458,8 +458,8 @@
 					Nous proposons l’ouverture à la base, mais aussi au sommet
 					du cursus académique. À l’image des thèses en cotutelle
 					entre deux établissements de nationalité différente, nous
-					devons développer des thèses en cotutelle entre deux disciplines
-					distinctes.
+					devons <strong>développer des thèses en cotutelle</strong> entre 
+					deux disciplines distinctes.
 				</p>
 				<p>
 					Les champs de recherche à la croisée du management et
@@ -473,9 +473,9 @@
 				</p>
 				<p>
 					Cette proposition permettra également de décloisonner
-					l’enseignement supérieur en faisant émerger une nouvelle
+					l’enseignement supérieur en faisant émerger <strong>une nouvelle
 					génération de maîtres de conférence et de professeurs
-					pluridisciplinaires.
+					pluridisciplinaires.</strong>
 				</p>
 			</div>
 		</div>
@@ -494,7 +494,7 @@
 			<hr />
 			<div class="content">
 				<p class="dropcap">
-					La créativité est un élément essentiel de la pédagogie qui a
+					<strong>La créativité est un élément essentiel de la pédagogie</strong> qui a
 					souvent été perçue comme accessoire. Il faut lui redonner
 					ses lettres de noblesse. Loin d’être une option de sousimportance,
 					la formation à la créativité doit permettre,
@@ -608,7 +608,7 @@
 					Les actions, en permettant une plus grande mixité sociale,
 					doivent être valorisées et formalisées. « Les Cordées de la
 					réussite » ou l’intégration des Écoles de la 2e Chance dans
-					les grandes écoles peuvent être généralisées. Développer
+					les grandes écoles <strong>peuvent être généralisées</strong>. Développer
 					les actions communes de mixité sociale ne peut qu’être
 					positif pour la société. Toutes les parties prenantes sont
 					dynamisées quand elles sont confrontées à l’autre, à la différence.
@@ -619,8 +619,8 @@
 				<p>
 					Si des conflits existent de manière caricaturale dans la
 					société entre des corps professionnels ou des corps sociaux,
-					c’est que ces personnes ne se connaissent pas. Elles ne
-					se sont jamais côtoyées. C’est une erreur : pour intégrer
+					c’est que ces personnes ne se connaissent pas. <strong>Elles ne
+					se sont jamais côtoyées.</strong> C’est une erreur : pour intégrer
 					l’importance des autres, il faut faire l’expérience de leur
 					importance et ce, le plus tôt possible. L’ouverture sociale
 					est une richesse, préservons-la.
@@ -698,8 +698,8 @@
 					nous pourrions imaginer de le développer sur une
 					durée plus longue (il est aujourd’hui limité à six semaines),
 					de le systématiser dans les carrières des enseignants, et surtout
-					d’étendre son application à des pays non membres de
-					l’Union européenne. L’idée serait que tous les enseignants
+					<strong>d’étendre son application à des pays non membres de
+					l’Union européenne.</strong> L’idée serait que tous les enseignants
 					de l’Éducation nationale et du supérieur passent dans les
 					premières années de leur carrière un an à l’étranger. 
 				</p>
@@ -724,8 +724,8 @@
 					de terrain. Le but d’une hiérarchie n’est pas d’imposer à ses
 					subalternes un protocole précis de réactions en fonction
 					de toutes les situations possibles et imaginables. Son rôle
-					devrait plutôt être de mettre l’acteur de terrain dans de
-					bonnes conditions pour faire des choix éclairés. L’Erasmus
+					devrait plutôt être de <strong>mettre l’acteur de terrain dans de
+					bonnes conditions pour faire des choix éclairés</strong>. L’Erasmus
 					des professeurs serait cela : remettre les enseignants au coeur
 					de la pédagogie.
 				</p>
