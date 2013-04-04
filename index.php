@@ -80,7 +80,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#debat">
+					<a href="http://debat.mixerlescultures.fr">
 						Poursuivre le débat
 					</a>
 				</li>
