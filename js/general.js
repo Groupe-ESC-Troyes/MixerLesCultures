@@ -22,14 +22,4 @@ $(function(){
 		window.pageTracker ? pageTracker._trackEvent('Téléchargement', 'Livre') : _gaq.push(['_trackEvent', 'Téléchargement', 'Livre']);
 	});
 	
-	$('#form').submit(function(event){
-		event.preventDefault();
-		$.post('mailer.php', $(this).serialize()).success(function(){
-			$('#form .form').slideUp(function(){
-				$('#form .answer').slideDown();
-			});
-		});
-	});
-	
-	
 });
