@@ -18,6 +18,10 @@ $(function(){
 	$.localScroll({hash: true});
 	$('body').scrollspy({target: '#menu', offset: 100});
 	
+	$('a.download').click(function(){
+		window.pageTracker ? pageTracker._trackEvent('Téléchargement', 'Livre') : _gaq.push(['_trackEvent', 'Téléchargement', 'Livre']);
+	});
+	
 	$('#form').submit(function(event){
 		event.preventDefault();
 		$.post('mailer.php', $(this).serialize()).success(function(){
@@ -26,4 +30,6 @@ $(function(){
 			});
 		});
 	});
+	
+	
 });
